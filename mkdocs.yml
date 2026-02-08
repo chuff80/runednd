@@ -5,6 +5,8 @@ theme:
   name: mkdocs
 plugins:
   - search
+hooks:
+  - tools/mkdocs_wikilinks_hook.py
 nav:
   - Home: index.md
   - Entities:
