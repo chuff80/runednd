@@ -1,0 +1,28 @@
+site_name: Runelore Wiki
+site_description: Personal D&D homebrew index
+docs_dir: wiki
+theme:
+  name: mkdocs
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Entities:
+      - Locations: entities/locations.md
+      - Characters: entities/characters.md
+  - Lists:
+      - All Content: lists/all-content.md
+      - Characters: lists/characters.md
+      - Locations: lists/locations.md
+      - Session Notes: lists/session-notes.md
+      - Lore: lists/lore.md
+      - Stories: lists/stories.md
+      - Other: lists/other.md
+  - Reference:
+      - Sources: reference/sources.md
+      - Extraction Report: reference/extraction-report.md
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true

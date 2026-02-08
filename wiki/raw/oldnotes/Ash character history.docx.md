@@ -1,0 +1,21 @@
+# Ash character history
+
+- Source: `oldnotes/Ash character history.docx`
+- Extracted: `2026-02-07T21:02:22`
+- Note: Converted with textutil
+Ash character history
+
+I grew up in one of the plains tribes bordering the forest. The Silver Wolf Tribe. Our tribe was different that others around, more aggressive and better at hunting in our blood runs something that transcends humanity. Our tribe had great unity, something stronger than a mere sense of community. Stories of honor, courage and darring were our mother's milk. Oral tradition of great glory. For all of our strengths, we are not all powerful, other tribes are mighty with words, trading and crafting weapons. Other tribes were mighty in treachery. 
+
+The other tribes feared us. So much so that they banded together to fight us. We were able to avoid their feeble attempts to catch us and raided their poorly protected camps. Eventually they called for parley. Our enemies prepared a great feast in our honor and promised not to attack us anymore. but their words were lies and their food poison. It made us sick so we could not fight. Some of us were killed including our chief and elders, though many fled into the forest. With our leaders dead, our spirit was broken. After weeks many of us were gathered and we lived peacefully in the forest for some years, though with immature leadership there were painful times.
+
+A few years back a being of light came to us and told us that she was a god. She did miraculous things. She told us that we would rise to glory once again and vengance. She trained us for battle and led us out of the forest. We brought war to those on the plains, but were not strong enough to make her proud. Now she insists we battle without glory and honor. With many of the old ones gone the young trust her and long for glory without honor. After a cowardly raid on women and children I vowed never again to follow the demon of light and stole away in the night.
+
+I wandered in the forest for some time. Food and water were plentiful, but the forest was devoid of human life. 
+
+My life changed forever the day I got lost in the mists. there was something different in the air there. the trees seemed to pass away and I found myself at an immense cliff with a cave. I entered the darkness and promptly lost my way. After falling asleep, I woke to some strange balls of light floating around I pleaded for help. One of the balls of light led me to a chamber whose walls were lit by writing.  In the chamber was an old being. A being of power. I hesitate to say man and I hesitate to say god, for he was neither, but something in between. He fed me and I rested. How long I was with him I cannot say. There was not much to do in his habitation, though it was filled with books. With nothing to do I started to try and make sense of the symbols and books in his abode. He chuckled at me and asked what I wanted most of all. I told him of the downfall of my tribe and how I wished to return them to glory and honor. He sought out to teach me the most basic part of the glowing words. After I had learned a little bit he blessed me and I slept. I woke in the forest though it was not familiar to me. I could not find my homelands and I couldn't find the cave. I tried to get my bearings but there was nothing familiar. After heading south for days I heard the clamor of battle and went to investigate. 
+Some fair pointy eared beings were fighting some green skinned little men. I flew into the fray using my new power of word. The difference in my power was immense. The little men were soon dispatched. The other fair ones turned out to be elves...
+It was strange to live for a time with creatures legend. Apparently strange events are on the rise among the elves with feral animals and other races threatening their homes. For some reason durring all of this turmoil they sent a small force to help some humans trapped in a great cage of stone called a city. I was selected to accompany that embassy. We have traveled across the plains with few concerns, it appears we are getting close.
+
+
+The powers I relate to are powers of strength, honor and protection. On the elemental side these are closest to fire and stone, though a nature/moon goddess might also appeal.
