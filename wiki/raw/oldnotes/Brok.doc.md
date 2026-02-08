@@ -1,7 +1,7 @@
 # Brok
 
 - Source: `oldnotes/Brok.doc`
-- Extracted: `2026-02-07T21:02:22`
+- Extracted: `2026-02-08T07:54:18`
 - Note: Converted with textutil
 As the sun peaked over the mountains that Surrounded Atania their rays began to filter through the homes of the families that lived there. In one home, the sun tickled the eyelids of one Brok Kastis. As the man sat up, the straw in his bed crunched and snapped under his shifting weight, he could smell the dew outside the window on the ground and he could see the rays of light that illuminated the particles of dust that hung swirling in the air. While he sat there with his feet hanging over the side of the bed but not quite reaching the floor, he considered what he should make for breakfast; it only took a moment, he decided on mush. That was all he really wanted. It was too early for a full meal and further he did not have the luxury to spend all day in the kitchen.
 

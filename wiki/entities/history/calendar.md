@@ -8,9 +8,9 @@ This entity uses [[raw/runesite/Calendar.html.md|calendar.html]] as the main bod
 
 ## Belligerents and Key Figures
 
-- [[entities/characters/cyric.md|Cyric the Warlord]] in long-arc historical framing.
-- [[entities/characters/liam.md|Liam]] and reconciliation-era successor narratives.
-- [[entities/characters/briar.md|Briar]] in the Raven Queen endgame sequence.
+- [[entities/characters/01-origin-figures/cyric.md|Cyric the Warlord]] in long-arc historical framing.
+- [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] and reconciliation-era successor narratives.
+- [[entities/characters/04-the-dragon-talkers/briar.md|Briar]] in the Raven Queen endgame sequence.
 - The Dragon Talkers cohort and associated allies in late-era campaign events.
 
 ## Timeline and Turning Points

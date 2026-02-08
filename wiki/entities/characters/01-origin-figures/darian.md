@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from canon and narrative sources; accounts diverge on whether Darian was betrayed, complicit, or partially constrained during Cyric's rise.
 
+`Era anchor:` Origin Figures (Pre-AG (before recorded history))
+
 ## Overview
 
 Darian Bloodstone is remembered as a foundational Atanian ruler and a pivotal bridge figure between human and Sidhe/Tuatha worlds. Canon and story materials present him as a warrior-king and state-builder whose reign included alliance-building, cultural patronage, and the early integration of Ogham knowledge into mortal institutions. His legacy is contested by conflicting narratives around Cyric's takeover and the Hartland War, making Darian both a historical symbol and a central unresolved question in postwar legitimacy.

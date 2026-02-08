@@ -1,5 +1,7 @@
 # RJ
 
+`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+
 ## Overview
 
 I was born in Attania, son of Mariah (43) and Ronald (48). I have 2 other siblings, an older sister, Ann (24), and a younger sister Marie (12). My older sister was involved in an affair with a mysterious stranger, Aluin, that nobody in our family had met.

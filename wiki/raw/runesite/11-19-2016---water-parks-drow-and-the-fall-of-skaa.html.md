@@ -1,7 +1,7 @@
 # 11-19-2016---water-parks-drow-and-the-fall-of-skaa
 
 - Source: `runesite/11-19-2016---water-parks-drow-and-the-fall-of-skaa.html`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Extracted visible HTML text
 Sorting through the loot of our previously slain foes, we feel a very large rumbling: A massive earthquake strikes ; the hallway from which we came cracks and slams shut with a massive burst of wind, knocking all of us to the ground. We rouse surrounded by fallen debris, rocks, and dirt, and see a hidden doorway, now visible; it leads to a tunnel going down into the caves that is just large enough as to where Religeuse has to duck his head to fit. Every few seconds or so there is another small tremor, and we see pieces of rock grinding off from one another, falling to the ground.
 

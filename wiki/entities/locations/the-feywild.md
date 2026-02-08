@@ -6,16 +6,16 @@ The new, terrifying Everstorm that has raged across the Northwest corner of the 
 
 ## Notable People
 
-- [[entities/characters/cyric.md|Cyric]] (12 mentions)
+- [[entities/characters/01-origin-figures/cyric.md|Cyric]] (12 mentions)
 - Frost Prince (12 mentions)
 - Summer Queen (12 mentions)
-- Raven Queen (10 mentions)
+- [[entities/characters/04-the-dragon-talkers/raven-queen.md|Raven Queen]] (10 mentions)
 - Gabalifix (9 mentions)
-- [[entities/characters/liam.md|Liam]] (9 mentions)
+- [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (9 mentions)
 - Brock (8 mentions)
 - Goblin (8 mentions)
 - Niko (8 mentions)
-- [[entities/characters/darian.md|Darian]] (7 mentions)
+- [[entities/characters/01-origin-figures/darian.md|Darian]] (7 mentions)
 - Duine (7 mentions)
 - Elves (6 mentions)
 - Fey Court (6 mentions)
@@ -32,7 +32,7 @@ The new, terrifying Everstorm that has raged across the Northwest corner of the 
 
 ## Important Historical Events
 
-- Hartland War (5 references in other notes; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
+- Hartland War (5 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
 
 ## Canonical Sources
 

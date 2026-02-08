@@ -208,6 +208,16 @@ EVENT_PATTERNS = [
     ),
 ]
 
+EVENT_DATE_HINTS: list[tuple[re.Pattern[str], str]] = [
+    (re.compile(r"\bgaeas\b", flags=re.IGNORECASE), "Recorded History begins (0 AG)"),
+    (re.compile(r"\breconcil(?:er|iation)\b", flags=re.IGNORECASE), "695 AG"),
+    (re.compile(r"\braven queen(?:'s)? war\b", flags=re.IGNORECASE), "1380 AG"),
+    (re.compile(r"\bgreat destruction\b", flags=re.IGNORECASE), "1385 AG"),
+    (re.compile(r"\bgibbard empire emerges\b", flags=re.IGNORECASE), "1435 AG"),
+    (re.compile(r"\bgibbard empire collapses\b", flags=re.IGNORECASE), "1885 AG"),
+    (re.compile(r"\bhartland war\b", flags=re.IGNORECASE), "c. 1000 years before 0 AG (pre-recorded)"),
+]
+
 
 @dataclass
 class Location:
@@ -585,7 +595,7 @@ def build_character_entity_lookup() -> dict[str, Path]:
     if not chars_root.exists():
         return lookup
 
-    for page in chars_root.glob("*.md"):
+    for page in chars_root.rglob("*.md"):
         if not page.is_file():
             continue
         title = read_page_title(page)
@@ -601,6 +611,13 @@ def build_character_entity_lookup() -> dict[str, Path]:
 def link_list(paths: list[Path], limit: int = 2) -> str:
     links = [make_obsidian_link(path, path.stem) for path in paths[:limit]]
     return ", ".join(links) if links else ""
+
+
+def calendar_date_for_event(event_name: str) -> str | None:
+    for pattern, date_label in EVENT_DATE_HINTS:
+        if pattern.search(event_name):
+            return date_label
+    return None
 
 
 def build_hub(
@@ -677,12 +694,14 @@ def build_hub(
     if events:
         for event, count, source_docs in events:
             sources = link_list(source_docs, limit=2)
+            date_label = calendar_date_for_event(event)
+            date_text = f"; calendar anchor: {date_label}" if date_label else ""
             if sources:
                 lines.append(
-                    f"- {event} ({count} references in other notes; sample sources: {sources})"
+                    f"- {event} ({count} references in other notes{date_text}; sample sources: {sources})"
                 )
             else:
-                lines.append(f"- {event} ({count} references in other notes)")
+                lines.append(f"- {event} ({count} references in other notes{date_text})")
     else:
         lines.append(
             "_No event phrases crossed the reference threshold yet (needs 3+ references in other notes)._"

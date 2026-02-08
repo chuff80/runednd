@@ -19,6 +19,16 @@ INDEX_PAGE = WIKI / "entities" / "characters.md"
 DEFAULT_MENTION_CHARS = 260
 DEFAULT_EVENT_THRESHOLD = 2
 
+ERA_GROUPS: list[tuple[str, str, str, set[str]]] = [
+    ("Origin Figures", "01-origin-figures", "Pre-AG (before recorded history)", {"darian", "cyric"}),
+    ("The Gaeas Falls", "02-the-gaeas-falls", "Recorded History begins (0 AG)", {"liam", "aidan", "mindee", "gabalafix"}),
+    ("The Reconcilers", "03-the-reconcilers", "695 AG", {"tal-aer", "niko-the-frost-prince"}),
+    ("The Dragon Talkers", "04-the-dragon-talkers", "1380 AG", {"briar", "raven-queen"}),
+]
+UNASSIGNED_ERA = "Unassigned / Cross-Era"
+UNASSIGNED_FOLDER = "99-unassigned-cross-era"
+UNASSIGNED_DATE = "Date TBD (cross-era)"
+
 EVENT_PATTERNS = [
     re.compile(
         r"\b([A-Z][A-Za-z'’\-]+(?:\s+[A-Z][A-Za-z'’\-]+){0,5}\s+(?:War|Battle|Apocalypse|Destruction|Reconciliation|Collapse|Uprising|Protest|Flood|Curse|Cleansing|Occupation|Exodus|Siege|Revolt|Cataclysm|Vengeance|Massacre))\b"
@@ -362,6 +372,24 @@ def link_list(paths: list[Path], limit: int = 2) -> str:
     return ", ".join(links)
 
 
+def era_folder_for_slug(slug: str) -> str:
+    for _era_name, folder, _date_label, slugs in ERA_GROUPS:
+        if slug in slugs:
+            return folder
+    return UNASSIGNED_FOLDER
+
+
+def era_info_for_slug(slug: str) -> tuple[str, str]:
+    for era_name, _folder, date_label, slugs in ERA_GROUPS:
+        if slug in slugs:
+            return era_name, date_label
+    return UNASSIGNED_ERA, UNASSIGNED_DATE
+
+
+def character_page_path(slug: str) -> Path:
+    return HUB_ROOT / era_folder_for_slug(slug) / f"{slug}.md"
+
+
 def build_character_page(
     character: Character,
     docs: list[Path],
@@ -369,7 +397,9 @@ def build_character_page(
     event_threshold: int,
 ) -> Path:
     HUB_ROOT.mkdir(parents=True, exist_ok=True)
-    hub_path = HUB_ROOT / f"{slugify(character.name)}.md"
+    slug = slugify(character.name)
+    hub_path = character_page_path(slug)
+    hub_path.parent.mkdir(parents=True, exist_ok=True)
 
     canon = canonical_text(character)
     overview_sentences = split_sentences(canon)
@@ -380,8 +410,11 @@ def build_character_page(
     assoc_locations = extract_locations(canon + "\n\n" + "\n".join(x[1] for x in mentions), location_names)
     events = extract_events(mentions, threshold=event_threshold)
 
+    era_name, era_date = era_info_for_slug(slug)
     lines = [
         f"# {character.name}",
+        "",
+        f"`Era anchor:` {era_name} ({era_date})",
         "",
         "## Overview",
         "",
@@ -466,12 +499,10 @@ def build_index(chars: list[Character]) -> None:
         return path.stem.replace("-", " ").title()
 
     # Generated pages from structured sources.
-    generated: dict[str, Path] = {
-        c.name: HUB_ROOT / f"{slugify(c.name)}.md" for c in chars
-    }
+    generated: dict[str, Path] = {c.name: character_page_path(slugify(c.name)) for c in chars}
 
     # Curated/manual pages that already exist in the folder but are not generated.
-    for existing in HUB_ROOT.glob("*.md"):
+    for existing in HUB_ROOT.rglob("*.md"):
         if not existing.is_file():
             continue
         if existing.name.startswith("."):
@@ -488,8 +519,40 @@ def build_index(chars: list[Character]) -> None:
         "## Character Pages",
         "",
     ]
-    for label, path in sorted(generated.items(), key=lambda kv: kv[0].lower()):
-        lines.append(f"- {make_obsidian_link(path, label)}")
+
+    grouped: dict[str, list[tuple[str, Path]]] = {
+        name: [] for name, _folder, _date_label, _slugs in ERA_GROUPS
+    }
+    unassigned: list[tuple[str, Path]] = []
+    by_slug: dict[str, str] = {}
+    for era_name, _folder, _date_label, slugs in ERA_GROUPS:
+        for slug in slugs:
+            by_slug[slug] = era_name
+
+    for label, path in generated.items():
+        slug = path.stem.lower()
+        era_name = by_slug.get(slug)
+        if era_name:
+            grouped[era_name].append((label, path))
+        else:
+            unassigned.append((label, path))
+
+    date_by_era = {era_name: date_label for era_name, _folder, date_label, _slugs in ERA_GROUPS}
+    for era_name, _folder, _date_label, _slugs in ERA_GROUPS:
+        items = sorted(grouped[era_name], key=lambda kv: kv[0].lower())
+        lines.append(f"### {era_name} ({date_by_era[era_name]})")
+        lines.append("")
+        for label, path in items:
+            lines.append(f"- {make_obsidian_link(path, label)}")
+        lines.append("")
+
+    if unassigned:
+        lines.append(f"### {UNASSIGNED_ERA}")
+        lines.append("")
+        for label, path in sorted(unassigned, key=lambda kv: kv[0].lower()):
+            lines.append(f"- {make_obsidian_link(path, label)}")
+        lines.append("")
+
     lines.append("")
     INDEX_PAGE.write_text("\n".join(lines), encoding="utf-8")
 

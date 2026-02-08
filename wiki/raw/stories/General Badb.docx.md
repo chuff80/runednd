@@ -1,7 +1,7 @@
 # General Badb
 
 - Source: `stories/General Badb.docx`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Converted with textutil
 I shoved my right hand into a chain-mailed gauntlet. My attendant, Isolia, lifted the left gauntlet, holding it open and patiently waiting for me to insert my hand. I took a long breath in through my nose and blew it out my mouth. This exhaustion won’t go away. When did I last sleep? How many days? 
 “General Badb,” Isolia shook the glove. 

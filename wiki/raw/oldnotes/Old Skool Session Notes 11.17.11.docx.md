@@ -1,7 +1,7 @@
 # Old Skool Session Notes 11.17.11
 
 - Source: `oldnotes/Old Skool Session Notes 11.17.11.docx`
-- Extracted: `2026-02-07T21:02:22`
+- Extracted: `2026-02-08T07:54:18`
 - Note: Converted with textutil
 Old Skool D&D Session Notes 11.17
 

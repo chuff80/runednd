@@ -8,10 +8,10 @@ This is the setting-wide timeline anchor for major historical phases and turning
 
 ## Belligerents and Key Figures
 
-- [[entities/characters/darian.md|Darian Bloodstone]] and early Atanian royal institutions.
-- [[entities/characters/cyric.md|Cyric the Warlord]] and aligned war factions during the Hartland era.
+- [[entities/characters/01-origin-figures/darian.md|Darian Bloodstone]] and early Atanian royal institutions.
+- [[entities/characters/01-origin-figures/cyric.md|Cyric the Warlord]] and aligned war factions during the Hartland era.
 - Tuatha/Sidhe war leadership networks (including figures like Badb and Celestina in retrospective sources).
-- Postwar/reconciler-era actors, including [[entities/characters/liam.md|Liam]] and later Atanian political coalitions.
+- Postwar/reconciler-era actors, including [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] and later Atanian political coalitions.
 
 ## Timeline and Turning Points
 

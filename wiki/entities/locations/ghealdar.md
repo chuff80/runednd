@@ -6,22 +6,22 @@ Ghealdar is now a city flooded by the massive Great River. The Dump, former home
 
 ## Notable People
 
-- [[entities/characters/aidan.md|Aidan]] (101 mentions)
-- [[entities/characters/sophronia.md|Sophronia]] (70 mentions)
-- [[entities/characters/liam.md|Liam]] (68 mentions)
+- [[entities/characters/02-the-gaeas-falls/aidan.md|Aidan]] (101 mentions)
+- [[entities/characters/99-unassigned-cross-era/sophronia.md|Sophronia]] (70 mentions)
+- [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (68 mentions)
 - Gabalifix (42 mentions)
-- [[entities/characters/cyric.md|Cyric]] (28 mentions)
+- [[entities/characters/01-origin-figures/cyric.md|Cyric]] (28 mentions)
 - Badb (27 mentions)
-- Mindee (24 mentions)
-- [[entities/characters/darian.md|Darian]] (21 mentions)
-- [[entities/characters/celestina.md|Celestina]] (20 mentions)
+- [[entities/characters/02-the-gaeas-falls/mindee.md|Mindee]] (24 mentions)
+- [[entities/characters/01-origin-figures/darian.md|Darian]] (21 mentions)
+- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (20 mentions)
 - Thomas (15 mentions)
 - Summer Queen (14 mentions)
 - Aaron (11 mentions)
 - Brother Fenn (11 mentions)
 - Angus (9 mentions)
 - Cumhneantach (9 mentions)
-- Raven Queen (9 mentions)
+- [[entities/characters/04-the-dragon-talkers/raven-queen.md|Raven Queen]] (9 mentions)
 - Then (9 mentions)
 - Commander Garrick Cimarron (8 mentions)
 
@@ -39,9 +39,9 @@ Ghealdar is now a city flooded by the massive Great River. The Dump, former home
 
 ## Important Historical Events
 
-- Hartland War (6 references in other notes; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
-- Great Destruction (4 references in other notes; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
-- Reconciliation (4 references in other notes; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/religions.html.md|religions.html]])
+- Hartland War (6 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
+- Great Destruction (4 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
+- Reconciliation (4 references in other notes; calendar anchor: 695 AG; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/religions.html.md|religions.html]])
 
 ## Canonical Sources
 

@@ -1,7 +1,7 @@
 # Session Notes 1.4.12
 
 - Source: `oldnotes/Session Notes 1.4.12.doc`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:18`
 - Note: Converted with textutil
 Now that the party has rescued Ann, Aidan will help them get in touch with Aluin and join up with the Resistance. 
 

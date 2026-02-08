@@ -1,7 +1,7 @@
 # ghealdar
 
 - Source: `runesite/ghealdar.html`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Extracted visible HTML text
 Ghealdar is now a city flooded by the massive Great River. The Dump, former home to the free goblins, and many of the riverside homes of the merchant houses, is completely underwater. Most of the city was killed in the flood and the battle with the Raven Queen. Many of the survivors say that the Curse of Badb was never truly lifted and that no one should remain in Ghealdar. Those whose houses were completely submerged have either moved to the North of the city or fled to the settle on the Thir or in the Free States.
 

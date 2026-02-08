@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from campaign notes, site canon pages, and story drafts. Timeline details remain partially conflicting.
 
+`Era anchor:` The Gaeas Falls (Recorded History begins (0 AG))
+
 ## Overview
 
 Liam is a central Atanian figure tied to the Bloodstone line, the collapse-and-recovery era around the Gaeas, and later resistance politics. Canon-facing material presents him as a kingly or legitimizing figure in Atania's restoration, while campaign notes emphasize his contested rule, goblin contracts, and periods of manipulation by Kaufman/Cyric-linked power. Narrative drafts also portray Liam as an older field mentor to Aidan and Sophronia during dangerous movement across Ghealdar and Hidden Atania.

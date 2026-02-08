@@ -6,14 +6,14 @@ Dragonshome Peak and Dragonshome Circle - the peak of Dragonshome mountain is wh
 
 ## Notable People
 
-- [[entities/characters/sophronia.md|Sophronia]] (44 mentions)
-- [[entities/characters/aidan.md|Aidan]] (43 mentions)
-- [[entities/characters/liam.md|Liam]] (43 mentions)
+- [[entities/characters/99-unassigned-cross-era/sophronia.md|Sophronia]] (44 mentions)
+- [[entities/characters/02-the-gaeas-falls/aidan.md|Aidan]] (43 mentions)
+- [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (43 mentions)
 - Gabalifix (33 mentions)
-- [[entities/characters/celestina.md|Celestina]] (20 mentions)
+- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (20 mentions)
 - Badb (18 mentions)
-- [[entities/characters/darian.md|Darian]] (15 mentions)
-- [[entities/characters/cyric.md|Cyric]] (10 mentions)
+- [[entities/characters/01-origin-figures/darian.md|Darian]] (15 mentions)
+- [[entities/characters/01-origin-figures/cyric.md|Cyric]] (10 mentions)
 - Summer Queen (10 mentions)
 - Commander Garrick Cimarron (8 mentions)
 - Crysania (7 mentions)

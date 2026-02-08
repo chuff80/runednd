@@ -8,9 +8,9 @@ The Hartland War is treated across sources as the defining civilization-level co
 
 ## Belligerents and Key Figures
 
-- Human war factions aligned to [[entities/characters/cyric.md|Cyric the Warlord]].
+- Human war factions aligned to [[entities/characters/01-origin-figures/cyric.md|Cyric the Warlord]].
 - Tuatha and Sidhe war coalitions, including major commanders such as Badb and Celestina in later recollection.
-- Royal/anti-Cyric human forces tied to [[entities/characters/darian.md|Darian Bloodstone]].
+- Royal/anti-Cyric human forces tied to [[entities/characters/01-origin-figures/darian.md|Darian Bloodstone]].
 - Secondary theaters and successor forces centered in [[entities/locations/atania.md|Atania]], [[entities/locations/ghealdar.md|Ghealdar]], and the Hartland region.
 
 ## Timeline and Turning Points

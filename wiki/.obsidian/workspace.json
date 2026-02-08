@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "entities/history/calendar.md",
-                "mode": "source",
+                "file": "entities/characters.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "calendar"
+              "title": "characters"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "entities/history/calendar.md",
+                "file": "entities/characters/aidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for calendar"
+              "title": "Backlinks for aidan"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "entities/history/calendar.md",
+                "file": "entities/characters/aidan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from calendar"
+              "title": "Outgoing links from aidan"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "entities/history/calendar.md",
+                "file": "entities/characters/aidan.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of calendar"
+              "title": "Outline of aidan"
             }
           }
         ]
@@ -185,37 +185,42 @@
   },
   "active": "c7062259edb85b96",
   "lastOpenFiles": [
-    "entities/history/timeline.md",
-    "entities/characters/aidan.md",
-    "entities/history/calendar.md",
-    "raw/runesite/Calendar.html.md",
-    "entities/characters/briar.md",
-    "entities/locations/ghealdar.md",
-    "entities/history/hartland-war.md",
-    "raw/evernote/Rune Rise of the Raven Queen.enex.md",
-    "entities/characters/wynn-shadoweye.md",
-    "entities/history",
-    "entities/history.md",
-    "entities/characters/rj.md",
-    "entities/characters/sophronia.md",
-    "entities/characters/niko-the-frost-prince.md",
-    "entities/characters/liam.md",
-    "entities/characters/darian.md",
-    "entities/characters/cyric.md",
-    "entities/characters/celestina.md",
-    "entities/locations/the-feywild.md",
-    "raw/runesite/atania.html.md",
     "entities/locations/atania.md",
-    "raw/evernote/D&D Rune After the Djinn.enex.md",
-    "raw/evernote",
-    "entities/characters/ash.md",
-    "ENTITY_TEMPLATE.md",
-    "lists/locations.md",
-    "Untitled",
-    "index.md",
-    "lists/lore.md",
-    "entities/characters",
-    "entities/locations",
-    "entities"
+    "raw/runesite/Calendar.html.md",
+    "entities/history/calendar.md",
+    "entities/characters.md",
+    "entities/characters/99-unassigned-cross-era/wynn-shadoweye.md",
+    "entities/characters/99-unassigned-cross-era/rj.md",
+    "entities/characters/99-unassigned-cross-era/sophronia.md",
+    "entities/characters/99-unassigned-cross-era/religieuse.md",
+    "entities/characters/99-unassigned-cross-era/celestina.md",
+    "entities/characters/99-unassigned-cross-era/ash.md",
+    "entities/characters/99-unassigned-cross-era",
+    "entities/characters/04-the-dragon-talkers/raven-queen.md",
+    "entities/characters/04-the-dragon-talkers/briar.md",
+    "entities/characters/04-the-dragon-talkers",
+    "entities/characters/03-the-reconcilers/tal-aer.md",
+    "entities/characters/03-the-reconcilers/niko-the-frost-prince.md",
+    "entities/characters/03-the-reconcilers",
+    "entities/characters/02-the-gaeas-falls/mindee.md",
+    "entities/characters/02-the-gaeas-falls/liam.md",
+    "entities/characters/02-the-gaeas-falls/gabalafix.md",
+    "entities/characters/02-the-gaeas-falls/aidan.md",
+    "entities/characters/02-the-gaeas-falls",
+    "entities/characters/01-origin-figures/darian.md",
+    "entities/characters/01-origin-figures/cyric.md",
+    "entities/characters/01-origin-figures",
+    "entities/characters/unassigned-cross-era/wynn-shadoweye.md",
+    "entities/characters/unassigned-cross-era/sophronia.md",
+    "entities/characters/unassigned-cross-era/rj.md",
+    "entities/characters/unassigned-cross-era/religieuse.md",
+    "entities/characters/unassigned-cross-era/celestina.md",
+    "entities/characters/unassigned-cross-era/ash.md",
+    "entities/characters/unassigned-cross-era",
+    "entities/characters/dragon-talkers",
+    "entities/characters/reconcilers",
+    "entities/characters/gaeas-falls",
+    "entities/characters/origin-figures",
+    "Untitled.canvas"
   ]
 }

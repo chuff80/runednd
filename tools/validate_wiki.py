@@ -131,7 +131,7 @@ def main() -> int:
         errors.append(f"Missing history entity directory: {HISTORY_DIR}")
 
     location_pages = sorted([p for p in LOCATION_DIR.glob("*.md") if p.is_file()])
-    character_pages = sorted([p for p in CHARACTER_DIR.glob("*.md") if p.is_file()])
+    character_pages = sorted([p for p in CHARACTER_DIR.rglob("*.md") if p.is_file()])
     history_pages = sorted([p for p in HISTORY_DIR.glob("*.md") if p.is_file()])
 
     if not location_pages:

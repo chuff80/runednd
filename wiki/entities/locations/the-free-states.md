@@ -6,11 +6,11 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 
 ## Notable People
 
-- Raven Queen (8 mentions)
-- [[entities/characters/cyric.md|Cyric]] (5 mentions)
-- [[entities/characters/briar.md|Briar]] (4 mentions)
-- Religieuse (4 mentions)
-- [[entities/characters/darian.md|Darian]] (3 mentions)
+- [[entities/characters/04-the-dragon-talkers/raven-queen.md|Raven Queen]] (8 mentions)
+- [[entities/characters/01-origin-figures/cyric.md|Cyric]] (5 mentions)
+- [[entities/characters/04-the-dragon-talkers/briar.md|Briar]] (4 mentions)
+- [[entities/characters/99-unassigned-cross-era/religieuse.md|Religieuse]] (4 mentions)
+- [[entities/characters/01-origin-figures/darian.md|Darian]] (3 mentions)
 - Duine (3 mentions)
 - Elemental Apocalypse (3 mentions)
 - Gabalifix (3 mentions)
@@ -37,8 +37,8 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 
 ## Important Historical Events
 
-- Great Destruction (3 references in other notes; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
-- Hartland War (3 references in other notes; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
+- Great Destruction (3 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
+- Hartland War (3 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
 
 ## Canonical Sources
 

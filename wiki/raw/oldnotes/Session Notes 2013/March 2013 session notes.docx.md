@@ -1,7 +1,7 @@
 # March 2013 session notes
 
 - Source: `oldnotes/Session Notes 2013/March 2013 session notes.docx`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Converted with textutil
 Lariat invited the party to help the goblins. 
 

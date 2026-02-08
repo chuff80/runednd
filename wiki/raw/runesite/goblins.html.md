@@ -1,7 +1,7 @@
 # goblins
 
 - Source: `runesite/goblins.html`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Extracted visible HTML text
 Age: Goblins mature faster than humans, reaching adulthood around age 10. A healthy Goblin can live to 50 or more, but rarely does.
 

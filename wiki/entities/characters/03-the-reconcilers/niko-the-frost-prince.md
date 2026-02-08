@@ -2,6 +2,8 @@
 
 `Canon status:` Curated synthesis from world-lore pages. This profile is strongest where it draws from Niko's dedicated lore article and Feywild briefs.
 
+`Era anchor:` The Reconcilers (695 AG)
+
 ## Overview
 
 Niko is an Archfey power-holder who became Frost Prince through political upheaval rather than gradual court ascent. His long arc moves from unwilling transformation, rage, and despair into deliberate stewardship of land, information, and long-horizon strategy. In current-era lore, he is defined less by spectacle and more by controlled leverage: selective alliances, indirect influence, and a refusal to be rushed into open conflict.

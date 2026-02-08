@@ -1,7 +1,7 @@
 # old-notes
 
 - Source: `runesite/old-notes.html`
-- Extracted: `2026-02-07T21:02:23`
+- Extracted: `2026-02-08T07:54:19`
 - Note: Extracted visible HTML text
 The city of Atania is ravaged by war, and the occupying army, led by a minotaur named Gabalifix , is solidifying its hold on the city, preparing it as a staging area to invade the rest of the continent.
 

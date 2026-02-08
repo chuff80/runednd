@@ -1,5 +1,7 @@
 # Wynn Shadoweye
 
+`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+
 ## Overview
 
 Wynn Shadoweye character history Wynn Shadoweye was born in the Village of Fenhaven. Like the other settlements along the foothills of the Spine, Fenhaven was constantly at war with the Lizardfolk of the Great Swamp. Most able-bodied men in Fenhaven were called to take up the mantle of defending the community, and Belgan was no different.

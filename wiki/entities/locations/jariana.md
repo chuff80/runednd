@@ -13,7 +13,7 @@ Skip to main content Skip to navigation Rune Rune Campaign Atania The Goblin Eng
 - Regions Races Destruction (3 mentions)
 - Calendar Jariana (2 mentions)
 - Skip (2 mentions)
-- [[entities/characters/aidan.md|Aidan]] (1 mention)
+- [[entities/characters/02-the-gaeas-falls/aidan.md|Aidan]] (1 mention)
 - Aluin (1 mention)
 - Arren Introduction (1 mention)
 - Biography Character Sheet (1 mention)
@@ -23,7 +23,7 @@ Skip to main content Skip to navigation Rune Rune Campaign Atania The Goblin Eng
 - Human Thief (1 mention)
 - Katherine (1 mention)
 - Kayleth (1 mention)
-- [[entities/characters/liam.md|Liam]] (1 mention)
+- [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (1 mention)
 
 ## Notable Places
 

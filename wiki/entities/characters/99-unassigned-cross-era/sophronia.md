@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from site canon and story/notes material; early-life and timeline details are still being reconciled.
 
+`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+
 ## Overview
 
 Sophronia is a bard-scholar and resistance-era survivor whose name anchors one of Atania's major cultural institutions, Sophronia's Bard College. Canon references describe her as an early anti-imperial figure and educator of cross-cultural lore, while narrative drafts portray her as a sharp, disciplined practitioner of Ogham theory under extreme field pressure. Across sources, she is defined by intellectual rigor, volatile stress responses, and a persistent commitment to preserving history and meaning through song and record.

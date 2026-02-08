@@ -1,5 +1,7 @@
 # Ash
 
+`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+
 ## Overview
 
 Ash character history I grew up in one of the plains tribes bordering the forest. The Silver Wolf Tribe. Our tribe was different that others around, more aggressive and better at hunting in our blood runs something that transcends humanity.

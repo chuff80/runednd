@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from campaign notes and story drafts. Aidan's timeline has conflicting reports; uncertain points are called out.
 
+`Era anchor:` The Gaeas Falls (Recorded History begins (0 AG))
+
 ## Overview
 
 Aidan appears as a pivotal and morally volatile figure in the Atania resistance arc: a former paladin of the Church of the Great Creator, a wartime organizer, and at times a feared enforcer. In different notes he is both collaborator and resistance ally, with his decisions tied closely to Kaufman's rise, covert operations in Atania, and internal betrayal in resistance networks. Narrative material also presents a younger Aidan as a devout but impulsive squire whose crisis of faith deepens after personal losses and prolonged violence.

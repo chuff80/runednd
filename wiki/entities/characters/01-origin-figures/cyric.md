@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from canon pages and narrative sources; some accounts conflict on chronology and exact mechanisms of his rise/fall.
 
+`Era anchor:` Origin Figures (Pre-AG (before recorded history))
+
 ## Overview
 
 Cyric the Warlord is consistently depicted as the catalytic antagonist of the Hartland War and the genocidal rupture between humans, Tuatha, and Sidhe polities. Sources frame him as a former close ally of Darian Bloodstone who weaponized Ogham power, propaganda, and political capture to drive mass violence and social collapse. Even in eras after his apparent defeat, Cyric's legacy persists through phylactery rumors, successor movements, and institutions shaped by fear of his return.

@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from draft prose and setting references; some biography details are narrative-facing and may be revised as canon text expands.
 
+`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+
 ## Overview
 
 Celestina, also called the Sealgair ("hunter"), is portrayed as a veteran Tuatha war leader shaped by the Hartland War and its aftermath. Sources consistently frame her as a relentless anti-orc/goblin combat specialist, a guerrilla strategist, and a key bridge figure between Tuatha survival goals and Atanian resistance efforts. In later Atania actions, she mentors Liam's cell and trains civilians into a functional resistance force while emphasizing that narrative legitimacy and unity are as important as battlefield victories.

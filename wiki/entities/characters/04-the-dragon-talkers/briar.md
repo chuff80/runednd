@@ -2,6 +2,8 @@
 
 `Canon status:` This page is a curated synthesis from runesite canon references; Briar appears primarily through retrospective religious and historical accounts rather than direct narrative scenes.
 
+`Era anchor:` The Dragon Talkers (1380 AG)
+
 ## Overview
 
 Briar is remembered as a cleric of the Creator who became one of the defining saint-figures of the modern era. Canon references connect her to the final confrontation with the Raven Queen, where Briar's intervention in the ethereal realm severed the power sustaining that threat and enabled its end. Later religious memory frames her as both savior and tragic catalyst: her sacrificial actions helped prevent total catastrophe while also tied to the release of the arch-djinn and the Great Destruction.
@@ -26,4 +28,3 @@ Direct physical description is limited in available sources. Briar is generally 
 - [[raw/runesite/religions.html.md|Religions]]
 - [[raw/runesite/Gibard.html.md|Gibard]]
 - [[raw/runesite/regions.html.md|Regions]]
-
