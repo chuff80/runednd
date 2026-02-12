@@ -1,6 +1,6 @@
 # Sources
 
-Generated: `2026-02-08T07:54:20`
+Generated: `2026-02-12T13:24:29`
 
 ## Source Folders
 
@@ -15,7 +15,7 @@ Generated: `2026-02-08T07:54:20`
 |---|---|
 | `evernote` | 2 |
 | `oldnotes` | 18 |
-| `runesite` | 31 |
+| `runesite` | 23 |
 | `stories` | 4 |
 
 ## Counts by File Type
@@ -24,7 +24,6 @@ Generated: `2026-02-08T07:54:20`
 |---|---|
 | `html` | 23 |
 | `docx` | 13 |
-| `jpg` | 8 |
 | `doc` | 4 |
 | `enex` | 2 |
 | `pdf` | 2 |

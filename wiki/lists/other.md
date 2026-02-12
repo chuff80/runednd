@@ -1,6 +1,6 @@
 # Other
 
-Total items: **7**
+Total items: **6**
 
 | Title | Type | Source | Path | Extracted |
 |---|---|---|---|---|
@@ -8,6 +8,5 @@ Total items: **7**
 | Rune Rise Of The Raven Queen | `enex` | `evernote` | `evernote/Rune Rise of the Raven Queen.enex` | [md](../raw/evernote/Rune%20Rise%20of%20the%20Raven%20Queen.enex.md) |
 | Gibard | `html` | `runesite` | `runesite/Gibard.html` | [md](../raw/runesite/Gibard.html.md) |
 | Home | `html` | `runesite` | `runesite/home.html` | [md](../raw/runesite/home.html.md) |
-| De722Af8B9Ff89619B744D9D0Ab6B830 | `jpg` | `runesite` | `runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg` | [md](../raw/runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg.md) |
 | Keyleth | `html` | `runesite` | `runesite/keyleth.html` | [md](../raw/runesite/keyleth.html.md) |
 | Onlinegroup | `html` | `runesite` | `runesite/onlinegroup.html` | [md](../raw/runesite/onlinegroup.html.md) |

@@ -30,11 +30,11 @@ Skip to main content Skip to navigation Rune Rune Campaign Atania The Goblin Eng
 - Ghealdar Gibard The Free States (3 mentions)
 - States Regions Races Destruction of the Elves Goblins Religions (3 mentions)
 - The Free States Regions (3 mentions)
-- Atania (2 mentions)
-- Ghealdar (2 mentions)
-- Regions (2 mentions)
-- The Feywild (2 mentions)
-- The Free States (2 mentions)
+- [[entities/locations/atania.md|Atania]] (2 mentions)
+- [[entities/locations/ghealdar.md|Ghealdar]] (2 mentions)
+- [[entities/locations/regions.md|Regions]] (2 mentions)
+- [[entities/locations/the-feywild.md|The Feywild]] (2 mentions)
+- [[entities/locations/the-free-states.md|The Free States]] (2 mentions)
 
 ## Important Historical Events
 

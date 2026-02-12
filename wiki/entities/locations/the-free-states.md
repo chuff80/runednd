@@ -27,8 +27,8 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 
 ## Notable Places
 
-- Atania (2 mentions)
-- Ghealdar (2 mentions)
+- [[entities/locations/atania.md|Atania]] (2 mentions)
+- [[entities/locations/ghealdar.md|Ghealdar]] (2 mentions)
 - City of the Dead (1 mention)
 - Free States (1 mention)
 - Kingdom of Atania (1 mention)
@@ -38,7 +38,7 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 ## Important Historical Events
 
 - Great Destruction (3 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
-- Hartland War (3 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
+- [[entities/history/hartland-war.md|Hartland War]] (3 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
 
 ## Canonical Sources
 

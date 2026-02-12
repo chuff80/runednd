@@ -28,11 +28,11 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 ## Notable Places
 
 - Church of the Creator (2 mentions)
-- Ghealdar (2 mentions)
+- [[entities/locations/ghealdar.md|Ghealdar]] (2 mentions)
 - Kingdom of Atania (2 mentions)
 - The Bay (2 mentions)
 - The Engineering School (2 mentions)
-- The Feywild (2 mentions)
+- [[entities/locations/the-feywild.md|The Feywild]] (2 mentions)
 - The Maw (2 mentions)
 - The Soggy Duck Inn (2 mentions)
 - The Temple (2 mentions)
@@ -42,7 +42,7 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 
 ## Important Historical Events
 
-- Hartland War (6 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
+- [[entities/history/hartland-war.md|Hartland War]] (6 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
 - Great Destruction (3 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
 - Reconciliation (3 references in other notes; calendar anchor: 695 AG; sample sources: [[raw/runesite/religions.html.md|religions.html]], [[raw/runesite/the-free-states.html.md|the-free-states.html]])
 
@@ -61,6 +61,9 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 - [[raw/oldnotes/Session Notes 2013/June 2013 session notes.docx.md|raw/oldnotes/Session Notes 2013/June 2013 session notes.docx.md]] - roup of people converging from various streets at the base of the hill and mounting the steps toward the church. ---------- Blood king of Atania – Liam – has a contract with the goblin nation. Goblin leaders signed a contract to serve the King of Atania. As...
 - [[raw/oldnotes/Session Notes 2013/March 2013 session notes.docx.md|raw/oldnotes/Session Notes 2013/March 2013 session notes.docx.md]] - Lariat invited the party to help the goblins. Blood king of Atania – Liam – has a contract with the goblin nation. Goblin leaders signed a contract to serve the King of Atania. The fight does not go well for the party. Just when things get to their worst, B...
 - [[raw/oldnotes/Wynn Shadoweye character history.docx.md|raw/oldnotes/Wynn Shadoweye character history.docx.md]] - sdom drain. ; )] The voices increasingly distract him from conversations, observations, and his ability to focus. He has been walking to Atania for weeks, battling the monster within himself and trying to keep his secret safe with the merchants and travelle...
+
+<details><summary>Show 14 more references</summary>
+
 - [[raw/runesite/10-16.html.md|raw/runesite/10-16.html.md]] - e boatswain and asks him to get us out of here. He asks what money we can give him, and we tell him that Beau is the son of the archmage in Atania. We can pay him 3000 gold, when we arrive there. He demands 1500 up front, and starts getting his boat ready....
 - [[raw/runesite/9-17-2016.html.md|raw/runesite/9-17-2016.html.md]] - e remainder got out. From here, we make our way to the docks, as carefully as possible, so I can arrange us passage on a boat to get us to Atania to take Beau home. While I'm speaking to one of the Boatswains, our attention is brought to a group of people s...
 - [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]] - Important world events and time are counted from the earliest founding of Atania. The earliest written records start After The Gaeas (AG) . The Gaeas was a great enchantment that the Feywild created after the Hartland war to make the mortal realm forget abo...
@@ -75,3 +78,5 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 - [[raw/runesite/the-goblin-engineers.html.md|raw/runesite/the-goblin-engineers.html.md]] - and organized the goblins into an efficient, militant merchant brigade. His merchant army of approximately 500 goblins took over the Bay of Atania and all of the Empire's ships. They built the first manually powered submarines at the behest of Reconcilers i...
 - [[raw/stories/An Argument of Fairies V2 copy.docx.md|raw/stories/An Argument of Fairies V2 copy.docx.md]] - and Lem’s daughter, the lovely Emma. Normally someone who had gotten in the kind of trouble Aaron had been in moved to a different part of Atania. But Aaron was still here. Liam wasn’t sure why. Nobody in the neighborhood liked him. Everyone else in this pa...
 - [[raw/stories/The Unkindness of Ravens Full.doc.md|raw/stories/The Unkindness of Ravens Full.doc.md]] - s small as well, and he had been training, as a Squire in the Order of the Knights of the Creator, in the weeks leading up to their leaving Atania. “I don’t know if it is even them. It could have been a bird or some other animal. Stop pulling on me!” His vo...
+
+</details>

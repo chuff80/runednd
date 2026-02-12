@@ -1,30 +1,46 @@
 site_name: Runelore Wiki
 site_description: Personal D&D homebrew index
 docs_dir: wiki
+exclude_docs: |
+  reference/review_batches/**
+not_in_nav: |
+  2026-02-08.md
+  ENTITY_TEMPLATE.md
+  Untitled.md
+  entities/**
+  raw/**
+  reference/review_queue.md
 theme:
   name: mkdocs
 plugins:
   - search
 hooks:
   - tools/mkdocs_wikilinks_hook.py
+extra_css:
+  - stylesheets/extra.css
 nav:
-  - Home: index.md
-  - Entities:
+  - Start Here: index.md
+  - World:
       - Locations: entities/locations.md
       - Characters: entities/characters.md
-  - Lists:
+      - Organizations: entities/organizations.md
+      - History: entities/history.md
+  - Story Archive:
+      - Session Notes: lists/session-notes.md
+      - Stories: lists/stories.md
+      - Lore: lists/lore.md
+  - Catalog:
       - All Content: lists/all-content.md
       - Characters: lists/characters.md
       - Locations: lists/locations.md
-      - Session Notes: lists/session-notes.md
-      - Lore: lists/lore.md
-      - Stories: lists/stories.md
       - Other: lists/other.md
   - Reference:
       - Sources: reference/sources.md
       - Extraction Report: reference/extraction-report.md
 markdown_extensions:
   - admonition
+  - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true

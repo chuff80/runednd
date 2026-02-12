@@ -20,6 +20,16 @@ SOURCE_DIRS = [
     ROOT / "evernote",
 ]
 
+SKIP_EXTENSIONS = {
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".gif",
+    ".webp",
+    ".svg",
+    ".ico",
+}
+
 CATEGORIES = [
     "characters",
     "locations",
@@ -90,6 +100,8 @@ def collect_entries() -> list[Entry]:
             if not abs_path.is_file():
                 continue
             if abs_path.name == ".DS_Store":
+                continue
+            if abs_path.suffix.lower() in SKIP_EXTENSIONS:
                 continue
 
             rel_path = abs_path.relative_to(ROOT)

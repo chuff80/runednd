@@ -18,6 +18,7 @@ LOCATIONS_LIST = WIKI / "lists" / "locations.md"
 DEFAULT_SUMMARY_CHARS = 0
 DEFAULT_MENTION_CHARS = 260
 DEFAULT_EVENT_THRESHOLD = 3
+DEFAULT_VISIBLE_MENTIONS = 8
 
 PLACE_HINT_WORDS = {
     "city",
@@ -608,6 +609,39 @@ def build_character_entity_lookup() -> dict[str, Path]:
     return lookup
 
 
+def build_location_entity_lookup(locations: list[Location]) -> dict[str, Path]:
+    lookup: dict[str, Path] = {}
+    for location in locations:
+        page = HUB_ROOT / f"{slugify(location.name)}.md"
+        title = location.name
+        for key in {
+            normalize_lookup_name(title),
+            normalize_lookup_name(page.stem),
+        }:
+            if key and key not in lookup:
+                lookup[key] = page
+    return lookup
+
+
+def build_history_entity_lookup() -> dict[str, Path]:
+    lookup: dict[str, Path] = {}
+    history_root = WIKI / "entities" / "history"
+    if not history_root.exists():
+        return lookup
+
+    for page in history_root.glob("*.md"):
+        if not page.is_file():
+            continue
+        title = read_page_title(page)
+        for key in {
+            normalize_lookup_name(title),
+            normalize_lookup_name(page.stem),
+        }:
+            if key and key not in lookup:
+                lookup[key] = page
+    return lookup
+
+
 def link_list(paths: list[Path], limit: int = 2) -> str:
     links = [make_obsidian_link(path, path.stem) for path in paths[:limit]]
     return ", ".join(links) if links else ""
@@ -620,14 +654,52 @@ def calendar_date_for_event(event_name: str) -> str | None:
     return None
 
 
+def append_mentions(
+    lines: list[str],
+    mentions: list[tuple[Path, str]],
+    visible_count: int,
+) -> None:
+    if not mentions:
+        lines.append("_No cross-references found yet._")
+        return
+
+    visible = mentions[:visible_count]
+    hidden = mentions[visible_count:]
+
+    for doc, excerpt in visible:
+        lines.append(
+            f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}"
+        )
+
+    if not hidden:
+        return
+
+    lines += [
+        "",
+        f"<details><summary>Show {len(hidden)} more references</summary>",
+        "",
+    ]
+    for doc, excerpt in hidden:
+        lines.append(
+            f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}"
+        )
+    lines += [
+        "",
+        "</details>",
+    ]
+
+
 def build_hub(
     location: Location,
     docs: list[Path],
     location_names: list[str],
     character_lookup: dict[str, Path],
+    location_lookup: dict[str, Path],
+    history_lookup: dict[str, Path],
     summary_chars: int,
     mention_chars: int,
     event_threshold: int,
+    visible_mentions: int,
 ) -> Path:
     HUB_ROOT.mkdir(parents=True, exist_ok=True)
     hub_path = HUB_ROOT / f"{slugify(location.name)}.md"
@@ -681,7 +753,9 @@ def build_hub(
 
     if places:
         for place, count in places:
-            lines.append(f"- {place} ({count} mention{'s' if count != 1 else ''})")
+            entity_path = location_lookup.get(normalize_lookup_name(place))
+            label = make_obsidian_link(entity_path, place) if entity_path else place
+            lines.append(f"- {label} ({count} mention{'s' if count != 1 else ''})")
     else:
         lines.append("_No place references detected yet._")
 
@@ -696,12 +770,14 @@ def build_hub(
             sources = link_list(source_docs, limit=2)
             date_label = calendar_date_for_event(event)
             date_text = f"; calendar anchor: {date_label}" if date_label else ""
+            event_path = history_lookup.get(normalize_lookup_name(event))
+            event_label = make_obsidian_link(event_path, event) if event_path else event
             if sources:
                 lines.append(
-                    f"- {event} ({count} references in other notes{date_text}; sample sources: {sources})"
+                    f"- {event_label} ({count} references in other notes{date_text}; sample sources: {sources})"
                 )
             else:
-                lines.append(f"- {event} ({count} references in other notes{date_text})")
+                lines.append(f"- {event_label} ({count} references in other notes{date_text})")
     else:
         lines.append(
             "_No event phrases crossed the reference threshold yet (needs 3+ references in other notes)._"
@@ -718,13 +794,7 @@ def build_hub(
         "",
     ]
 
-    if mentions:
-        for doc, excerpt in mentions:
-            lines.append(
-                f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}"
-            )
-    else:
-        lines.append("_No cross-references found yet._")
+    append_mentions(lines, mentions, visible_count=visible_mentions)
 
     lines.append("")
     hub_path.write_text("\n".join(lines), encoding="utf-8")
@@ -771,6 +841,12 @@ def main() -> None:
         help=f"Minimum number of other-note references for an event to be listed (default: {DEFAULT_EVENT_THRESHOLD}).",
     )
     parser.add_argument(
+        "--visible-mentions",
+        type=int,
+        default=DEFAULT_VISIBLE_MENTIONS,
+        help=f"Maximum number of mention entries to show before collapsing (default: {DEFAULT_VISIBLE_MENTIONS}).",
+    )
+    parser.add_argument(
         "--only",
         type=str,
         default="",
@@ -787,6 +863,8 @@ def main() -> None:
     docs = all_raw_docs()
     location_names = [loc.name for loc in locations]
     character_lookup = build_character_entity_lookup()
+    location_lookup = build_location_entity_lookup(locations)
+    history_lookup = build_history_entity_lookup()
 
     for location in selected_locations:
         build_hub(
@@ -794,9 +872,12 @@ def main() -> None:
             docs,
             location_names=location_names,
             character_lookup=character_lookup,
+            location_lookup=location_lookup,
+            history_lookup=history_lookup,
             summary_chars=args.summary_chars,
             mention_chars=args.mention_chars,
             event_threshold=args.event_threshold,
+            visible_mentions=args.visible_mentions,
         )
 
     build_index(locations)

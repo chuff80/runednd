@@ -18,6 +18,7 @@ INDEX_PAGE = WIKI / "entities" / "characters.md"
 
 DEFAULT_MENTION_CHARS = 260
 DEFAULT_EVENT_THRESHOLD = 2
+DEFAULT_VISIBLE_MENTIONS = 8
 
 ERA_GROUPS: list[tuple[str, str, str, set[str]]] = [
     ("Origin Figures", "01-origin-figures", "Pre-AG (before recorded history)", {"darian", "cyric"}),
@@ -191,6 +192,12 @@ def normalize_candidate(text: str) -> str:
     t = normalize_space(text.strip(" ,.;:!?()[]{}\""))
     t = re.sub(r"(?:'s|’s)$", "", t, flags=re.IGNORECASE)
     return t
+
+
+def normalize_lookup_name(name: str) -> str:
+    cleaned = normalize_space(name)
+    cleaned = re.sub(r"[^a-z0-9]+", " ", cleaned.lower())
+    return normalize_space(cleaned)
 
 
 def parse_location_names() -> list[str]:
@@ -367,6 +374,78 @@ def make_obsidian_link(path: Path, label: str) -> str:
     return f"[[{rel}|{label}]]"
 
 
+def read_page_title(path: Path) -> str:
+    try:
+        first = path.read_text(encoding="utf-8", errors="replace").splitlines()[0]
+        if first.startswith("# "):
+            return first[2:].strip()
+    except Exception:
+        pass
+    return path.stem.replace("-", " ").title()
+
+
+def build_character_entity_lookup(chars: list[Character]) -> dict[str, Path]:
+    lookup: dict[str, Path] = {}
+
+    # Generated/expected character pages.
+    for character in chars:
+        page = character_page_path(slugify(character.name))
+        title = character.name
+        for key in {
+            normalize_lookup_name(title),
+            normalize_lookup_name(page.stem),
+        }:
+            if key and key not in lookup:
+                lookup[key] = page
+
+    # Existing curated/manual pages.
+    if HUB_ROOT.exists():
+        for page in HUB_ROOT.rglob("*.md"):
+            if not page.is_file():
+                continue
+            title = read_page_title(page)
+            for key in {
+                normalize_lookup_name(title),
+                normalize_lookup_name(page.stem),
+            }:
+                if key and key not in lookup:
+                    lookup[key] = page
+    return lookup
+
+
+def build_location_entity_lookup(location_names: list[str]) -> dict[str, Path]:
+    lookup: dict[str, Path] = {}
+    loc_root = WIKI / "entities" / "locations"
+    for title in location_names:
+        page = loc_root / f"{slugify(title)}.md"
+        for key in {
+            normalize_lookup_name(title),
+            normalize_lookup_name(page.stem),
+        }:
+            if key and key not in lookup:
+                lookup[key] = page
+    return lookup
+
+
+def build_history_entity_lookup() -> dict[str, Path]:
+    lookup: dict[str, Path] = {}
+    history_root = WIKI / "entities" / "history"
+    if not history_root.exists():
+        return lookup
+
+    for page in history_root.glob("*.md"):
+        if not page.is_file():
+            continue
+        title = read_page_title(page)
+        for key in {
+            normalize_lookup_name(title),
+            normalize_lookup_name(page.stem),
+        }:
+            if key and key not in lookup:
+                lookup[key] = page
+    return lookup
+
+
 def link_list(paths: list[Path], limit: int = 2) -> str:
     links = [make_obsidian_link(path, path.stem) for path in paths[:limit]]
     return ", ".join(links)
@@ -390,11 +469,46 @@ def character_page_path(slug: str) -> Path:
     return HUB_ROOT / era_folder_for_slug(slug) / f"{slug}.md"
 
 
+def append_mentions(
+    lines: list[str],
+    mentions: list[tuple[Path, str]],
+    visible_count: int,
+) -> None:
+    if not mentions:
+        lines.append("_No cross-references found yet._")
+        return
+
+    visible = mentions[:visible_count]
+    hidden = mentions[visible_count:]
+
+    for doc, excerpt in visible:
+        lines.append(f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}")
+
+    if not hidden:
+        return
+
+    lines += [
+        "",
+        f"<details><summary>Show {len(hidden)} more references</summary>",
+        "",
+    ]
+    for doc, excerpt in hidden:
+        lines.append(f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}")
+    lines += [
+        "",
+        "</details>",
+    ]
+
+
 def build_character_page(
     character: Character,
     docs: list[Path],
     location_names: list[str],
     event_threshold: int,
+    visible_mentions: int,
+    character_lookup: dict[str, Path],
+    location_lookup: dict[str, Path],
+    history_lookup: dict[str, Path],
 ) -> Path:
     HUB_ROOT.mkdir(parents=True, exist_ok=True)
     slug = slugify(character.name)
@@ -426,7 +540,13 @@ def build_character_page(
 
     if connections:
         for name, count in connections:
-            lines.append(f"- {name} ({count} mention{'s' if count != 1 else ''})")
+            link_path = character_lookup.get(normalize_lookup_name(name))
+            label = (
+                make_obsidian_link(link_path, name)
+                if link_path and link_path != hub_path
+                else name
+            )
+            lines.append(f"- {label} ({count} mention{'s' if count != 1 else ''})")
     else:
         lines.append("_No strong character connections detected yet._")
 
@@ -438,7 +558,9 @@ def build_character_page(
 
     if assoc_locations:
         for loc, count in assoc_locations:
-            lines.append(f"- {loc} ({count} mention{'s' if count != 1 else ''})")
+            link_path = location_lookup.get(normalize_lookup_name(loc))
+            label = make_obsidian_link(link_path, loc) if link_path else loc
+            lines.append(f"- {label} ({count} mention{'s' if count != 1 else ''})")
     else:
         lines.append("_No location links detected yet._")
 
@@ -450,8 +572,10 @@ def build_character_page(
 
     if events:
         for event, count, srcs in events:
+            event_path = history_lookup.get(normalize_lookup_name(event))
+            event_label = make_obsidian_link(event_path, event) if event_path else event
             lines.append(
-                f"- {event} ({count} references in other notes; sample sources: {link_list(srcs, limit=2)})"
+                f"- {event_label} ({count} references in other notes; sample sources: {link_list(srcs, limit=2)})"
             )
     else:
         lines.append(
@@ -474,11 +598,7 @@ def build_character_page(
         "",
     ]
 
-    if mentions:
-        for doc, excerpt in mentions:
-            lines.append(f"- {make_obsidian_link(doc, doc.relative_to(WIKI).as_posix())} - {excerpt}")
-    else:
-        lines.append("_No cross-references found yet._")
+    append_mentions(lines, mentions, visible_count=visible_mentions)
 
     lines.append("")
     hub_path.write_text("\n".join(lines), encoding="utf-8")
@@ -571,6 +691,12 @@ def main() -> None:
         default=DEFAULT_EVENT_THRESHOLD,
         help=f"Minimum number of other-note references for an event to be listed (default: {DEFAULT_EVENT_THRESHOLD}).",
     )
+    parser.add_argument(
+        "--visible-mentions",
+        type=int,
+        default=DEFAULT_VISIBLE_MENTIONS,
+        help=f"Maximum number of mention entries to show before collapsing (default: {DEFAULT_VISIBLE_MENTIONS}).",
+    )
     args = parser.parse_args()
 
     chars = parse_characters()
@@ -582,9 +708,21 @@ def main() -> None:
     docs = [p for p in RAW.rglob("*.md") if p.is_file()]
     docs.sort(key=lambda p: str(p).lower())
     location_names = parse_location_names()
+    character_lookup = build_character_entity_lookup(chars)
+    location_lookup = build_location_entity_lookup(location_names)
+    history_lookup = build_history_entity_lookup()
 
     for c in selected:
-        build_character_page(c, docs, location_names=location_names, event_threshold=args.event_threshold)
+        build_character_page(
+            c,
+            docs,
+            location_names=location_names,
+            event_threshold=args.event_threshold,
+            visible_mentions=args.visible_mentions,
+            character_lookup=character_lookup,
+            location_lookup=location_lookup,
+            history_lookup=history_lookup,
+        )
 
     build_index(chars)
     print(f"Built {len(selected)} character hub pages.")

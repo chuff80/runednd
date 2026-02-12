@@ -22,7 +22,7 @@ Wynn Shadoweye character history Wynn Shadoweye was born in the Village of Fenha
 
 ## Associated Locations
 
-- Atania (3 mentions)
+- [[entities/locations/atania.md|Atania]] (3 mentions)
 
 ## Important Historical Events
 

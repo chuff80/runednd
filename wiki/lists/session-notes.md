@@ -1,6 +1,6 @@
 # Session Notes
 
-Total items: **23**
+Total items: **20**
 
 | Title | Type | Source | Path | Extracted |
 |---|---|---|---|---|
@@ -23,7 +23,4 @@ Total items: **23**
 | 9 17 2016 | `html` | `runesite` | `runesite/9-17-2016.html` | [md](../raw/runesite/9-17-2016.html.md) |
 | Calendar | `html` | `runesite` | `runesite/Calendar.html` | [md](../raw/runesite/Calendar.html.md) |
 | Old Notes | `html` | `runesite` | `runesite/old-notes.html` | [md](../raw/runesite/old-notes.html.md) |
-| 23F5Bbcde468F9Ead183Cb71B301Ed31 | `jpg` | `runesite` | `runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg` | [md](../raw/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg.md) |
-| 58Ca05E20345F957896E00Ffa4C1Ef3F | `jpg` | `runesite` | `runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg` | [md](../raw/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg.md) |
-| D56B9E3D7982B14851F51Ff5F3C22C05 | `jpg` | `runesite` | `runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg` | [md](../raw/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg.md) |
 | Session Notes | `html` | `runesite` | `runesite/session-notes.html` | [md](../raw/runesite/session-notes.html.md) |

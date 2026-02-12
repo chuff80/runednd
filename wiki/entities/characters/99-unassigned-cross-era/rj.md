@@ -8,7 +8,7 @@ I was born in Attania, son of Mariah (43) and Ronald (48). I have 2 other siblin
 
 ## Notable Connections
 
-- Aidan (7 mentions)
+- [[entities/characters/02-the-gaeas-falls/aidan.md|Aidan]] (7 mentions)
 - Aluin (5 mentions)
 - Kaufman (5 mentions)
 - Marie (3 mentions)
