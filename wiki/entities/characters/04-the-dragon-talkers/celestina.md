@@ -2,7 +2,7 @@
 
 `Canon status:` This page is a curated synthesis from draft prose and setting references; some biography details are narrative-facing and may be revised as canon text expands.
 
-`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+`Era anchor:` The Dragon Talkers (1380 AG)
 
 ## Overview
 

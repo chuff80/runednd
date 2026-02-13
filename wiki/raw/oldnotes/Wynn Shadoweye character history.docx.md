@@ -1,7 +1,7 @@
 # Wynn Shadoweye character history
 
 - Source: `oldnotes/Wynn Shadoweye character history.docx`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Converted with textutil
 Wynn Shadoweye character history
 

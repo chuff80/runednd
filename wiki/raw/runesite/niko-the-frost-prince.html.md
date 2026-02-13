@@ -1,7 +1,7 @@
 # niko-the-frost-prince
 
 - Source: `runesite/niko-the-frost-prince.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 Five hundred years as a fey lord have changed Niko. At first, totally overwhelmed with this responsibility that he felt had been forced on him, he retreated into his new realm. In the first few years he nearly convinced himself that it wasn’t true, that making him a fey lord had been a lie of the Summer Queen, part of some elaborate but failed strategy. But as the land thawed around him and life began to return he could no longer deny that he was having some effect on it.  Then he was angry. He spent years in a rage, stalking across his realm screaming into the sky, tearing ditches into the earth with his bare hands as if he could punish the land itself. Eventually the rage became too much to sustain and when it did Niko gave himself over to despair. He crawled into a hole in the rock of the mountain and wept. He has always been close the spirits of wild places and he had always taken comfort in the thought that one day he would join them. He mourned the loss of his mortality, of the life he once had, of all the familiar things that were lost to him now. He doesn't know how long he spent like that, wandering across the mountains, keeping himself alive in some mechanical, animal way, but dead to the world and to himself.
 

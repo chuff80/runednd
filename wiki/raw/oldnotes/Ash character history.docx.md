@@ -1,7 +1,7 @@
 # Ash character history
 
 - Source: `oldnotes/Ash character history.docx`
-- Extracted: `2026-02-08T07:54:17`
+- Extracted: `2026-02-12T13:24:27`
 - Note: Converted with textutil
 Ash character history
 

@@ -2,7 +2,7 @@
 
 `Canon status:` This page is a curated synthesis from runesite session/history extracts. `Religieuse` is the canonical entity name; `Juice` appears as an in-text alias in session narration.
 
-`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+`Era anchor:` The Ghealdar Goblins (1350 AG)
 
 ## Overview
 

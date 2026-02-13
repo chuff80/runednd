@@ -1,7 +1,7 @@
 # The Unkindness of Ravens Full
 
 - Source: `stories/The Unkindness of Ravens Full.doc`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Converted with textutil
 THE UNKINDNESS OF RAVENS
 

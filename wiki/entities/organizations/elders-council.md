@@ -23,15 +23,15 @@ Asher, Cog, Muu, Isadorae, Rhaeda, Silvermane, Draevan, and Sadavir came togethe
 
 - [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (3 mentions)
 - Kaufman (2 mentions)
-- Asher (1 mention)
+- [[entities/characters/04-the-dragon-talkers/asher.md|Asher]] (1 mention)
 - Atanians (1 mention)
 - [[entities/characters/01-origin-figures/cyric.md|Cyric]] (1 mention)
-- Draevan (1 mention)
+- [[entities/characters/04-the-dragon-talkers/draevan.md|Draevan]] (1 mention)
 - Gibard (1 mention)
-- Isadorae (1 mention)
-- Rhaeda (1 mention)
-- Sadavir (1 mention)
-- Silvermane (1 mention)
+- [[entities/characters/04-the-dragon-talkers/isadorae.md|Isadorae]] (1 mention)
+- [[entities/characters/04-the-dragon-talkers/rhaeda.md|Rhaeda]] (1 mention)
+- [[entities/characters/04-the-dragon-talkers/sadavir.md|Sadavir]] (1 mention)
+- [[entities/characters/04-the-dragon-talkers/silvermane.md|Silvermane]] (1 mention)
 - Warlord (1 mention)
 
 ## Associated Locations

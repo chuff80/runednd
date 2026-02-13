@@ -25,7 +25,7 @@ The Cumhnantach knew how to tap the lines of this language of power to do what w
 - [[entities/characters/02-the-gaeas-falls/mindee.md|Mindee]] (4 mentions)
 - Ogham (4 mentions)
 - Winter Queen (2 mentions)
-- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (1 mention)
+- [[entities/characters/04-the-dragon-talkers/celestina.md|Celestina]] (1 mention)
 - Dubhain (1 mention)
 - Dubhaine (1 mention)
 - Members (1 mention)

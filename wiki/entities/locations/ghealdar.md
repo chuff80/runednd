@@ -14,7 +14,7 @@ Ghealdar is now a city flooded by the massive Great River. The Dump, former home
 - Badb (27 mentions)
 - [[entities/characters/02-the-gaeas-falls/mindee.md|Mindee]] (24 mentions)
 - [[entities/characters/01-origin-figures/darian.md|Darian]] (21 mentions)
-- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (20 mentions)
+- [[entities/characters/04-the-dragon-talkers/celestina.md|Celestina]] (20 mentions)
 - Thomas (15 mentions)
 - Summer Queen (14 mentions)
 - Aaron (11 mentions)

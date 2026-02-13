@@ -1,7 +1,7 @@
 # An Argument of Fairies V2 copy
 
 - Source: `stories/An Argument of Fairies V2 copy.docx`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Converted with textutil
 TITLE PAGE
 

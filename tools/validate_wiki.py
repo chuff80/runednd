@@ -11,9 +11,11 @@ WIKI = ROOT / "wiki"
 LOCATION_DIR = WIKI / "entities" / "locations"
 CHARACTER_DIR = WIKI / "entities" / "characters"
 HISTORY_DIR = WIKI / "entities" / "history"
+ORGANIZATION_DIR = WIKI / "entities" / "organizations"
 LOCATION_INDEX = WIKI / "entities" / "locations.md"
 CHARACTER_INDEX = WIKI / "entities" / "characters.md"
 HISTORY_INDEX = WIKI / "entities" / "history.md"
+ORGANIZATION_INDEX = WIKI / "entities" / "organizations.md"
 TEMPLATE_FILE = WIKI / "ENTITY_TEMPLATE.md"
 AGENTS_FILE = ROOT / "AGENTS.md"
 
@@ -49,6 +51,17 @@ HISTORY_REQUIRED = [
     "## Outcomes and Lasting Impact",
     "## Canonical Sources",
     "## Where This Event Appears",
+]
+
+ORGANIZATION_REQUIRED = [
+    "## Overview",
+    "## Beliefs",
+    "## Practices and Structure",
+    "## Notable Members",
+    "## Associated Locations",
+    "## Important Historical Events",
+    "## Canonical Sources",
+    "## Where This Organization Appears",
 ]
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]")
@@ -119,7 +132,14 @@ def main() -> int:
     errors: list[str] = []
 
     # Required guardrail files
-    for p in [AGENTS_FILE, TEMPLATE_FILE, LOCATION_INDEX, CHARACTER_INDEX, HISTORY_INDEX]:
+    for p in [
+        AGENTS_FILE,
+        TEMPLATE_FILE,
+        LOCATION_INDEX,
+        CHARACTER_INDEX,
+        HISTORY_INDEX,
+        ORGANIZATION_INDEX,
+    ]:
         check_exists(p, errors)
 
     # Entity directories
@@ -129,10 +149,13 @@ def main() -> int:
         errors.append(f"Missing character entity directory: {CHARACTER_DIR}")
     if not HISTORY_DIR.exists() or not HISTORY_DIR.is_dir():
         errors.append(f"Missing history entity directory: {HISTORY_DIR}")
+    if not ORGANIZATION_DIR.exists() or not ORGANIZATION_DIR.is_dir():
+        errors.append(f"Missing organization entity directory: {ORGANIZATION_DIR}")
 
     location_pages = sorted([p for p in LOCATION_DIR.glob("*.md") if p.is_file()])
     character_pages = sorted([p for p in CHARACTER_DIR.rglob("*.md") if p.is_file()])
     history_pages = sorted([p for p in HISTORY_DIR.glob("*.md") if p.is_file()])
+    organization_pages = sorted([p for p in ORGANIZATION_DIR.glob("*.md") if p.is_file()])
 
     if not location_pages:
         errors.append("No location entity pages found.")
@@ -140,7 +163,6 @@ def main() -> int:
         errors.append("No character entity pages found.")
     if not history_pages:
         errors.append("No history entity pages found.")
-
     # Validate headings and links per page
     for page in location_pages:
         text = read_text(page)
@@ -177,6 +199,15 @@ def main() -> int:
             )
         validate_wikilinks(page, text, errors)
 
+    for page in organization_pages:
+        text = read_text(page)
+        missing = has_headings(text, ORGANIZATION_REQUIRED)
+        if missing:
+            errors.append(
+                f"Organization page missing headings ({', '.join(missing)}): {page.relative_to(ROOT)}"
+            )
+        validate_wikilinks(page, text, errors)
+
     # Validate index coverage
     if LOCATION_INDEX.exists():
         linked = links_from_index(LOCATION_INDEX)
@@ -205,8 +236,24 @@ def main() -> int:
                 f"History index missing links: {', '.join(sorted(missing_links))}"
             )
 
+    if ORGANIZATION_INDEX.exists():
+        linked = links_from_index(ORGANIZATION_INDEX)
+        expected = {rel_from_wiki(p) for p in organization_pages}
+        missing_links = expected - linked
+        if missing_links:
+            errors.append(
+                f"Organization index missing links: {', '.join(sorted(missing_links))}"
+            )
+
     # Validate wiki links for top-level key docs
-    for p in [WIKI / "index.md", LOCATION_INDEX, CHARACTER_INDEX, HISTORY_INDEX, TEMPLATE_FILE]:
+    for p in [
+        WIKI / "index.md",
+        LOCATION_INDEX,
+        CHARACTER_INDEX,
+        HISTORY_INDEX,
+        ORGANIZATION_INDEX,
+        TEMPLATE_FILE,
+    ]:
         if p.exists():
             validate_wikilinks(p, read_text(p), errors)
 

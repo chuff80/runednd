@@ -1,7 +1,7 @@
 # destruction-of-the-elves
 
 - Source: `runesite/destruction-of-the-elves.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 The Elves of the Hartland forest have been a part of the forest since the beginning of the world. Part of their creation myth states that when the Fey Queen wanted a hideaway to play in, she dreamed up a world of lush forests full of docile servants. In her dream, these servants accompanied her on hunts, gathering berries, and enjoying the wonders of the world.
 

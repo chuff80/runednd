@@ -1,7 +1,7 @@
 # religions
 
 - Source: `runesite/religions.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 The Church of the Great Creator is still the most visible and dominant of the churches, but after the Great Destruction, many additional faiths have come into existence.
 

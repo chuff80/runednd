@@ -10,7 +10,7 @@ Dragonshome Peak and Dragonshome Circle - the peak of Dragonshome mountain is wh
 - [[entities/characters/02-the-gaeas-falls/aidan.md|Aidan]] (43 mentions)
 - [[entities/characters/02-the-gaeas-falls/liam.md|Liam]] (43 mentions)
 - Gabalifix (33 mentions)
-- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (20 mentions)
+- [[entities/characters/04-the-dragon-talkers/celestina.md|Celestina]] (20 mentions)
 - Badb (18 mentions)
 - [[entities/characters/01-origin-figures/darian.md|Darian]] (15 mentions)
 - [[entities/characters/01-origin-figures/cyric.md|Cyric]] (10 mentions)

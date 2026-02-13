@@ -1,7 +1,7 @@
 # races
 
 - Source: `runesite/races.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 Goblins have integrated themselves deeply into Rune society. The goblins who originally entered Atania 700 years ago with the minotaur emperor Gabalifix founded the Atanian Goblin Society of Engineers and the engineer/wizard Grok helped co-found the Wizard Academy. Atanian goblins have strongly shaped the spread of technology and magic across Rune. Artificers work with manufacturers everywhere to help them apply The Sciences to their work.
 

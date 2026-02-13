@@ -1,7 +1,7 @@
 # Calendar
 
 - Source: `runesite/Calendar.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 Important world events and time are counted from the earliest founding of Atania. The earliest written records start After The Gaeas (AG) . The Gaeas was a great enchantment that the Feywild created after the Hartland war to make the mortal realm forget about the fey.
 

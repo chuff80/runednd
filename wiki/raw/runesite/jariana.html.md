@@ -1,7 +1,7 @@
 # jariana
 
 - Source: `runesite/jariana.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 Skip to main content
 

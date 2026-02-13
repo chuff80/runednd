@@ -1,35 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Spectral:wght@400;500;600&display=swap");
+
+:root {
+  --rl-night-900: #040909;
+  --rl-night-850: #071311;
+  --rl-night-800: #0a1a18;
+  --rl-mist-700: #0f3531;
+  --rl-mist-600: #1b5a52;
+  --rl-mist-500: #2f8074;
+  --rl-gold-500: #c0a35a;
+  --rl-gold-400: #dbc67e;
+  --rl-gold-300: #f3e6aa;
+  --rl-ink-100: #dde7df;
+  --rl-ink-300: #9fb5aa;
+  --rl-line: rgba(192, 163, 90, 0.28);
+  --rl-panel-bg: rgba(6, 17, 15, 0.74);
+  --rl-panel-strong: rgba(4, 10, 9, 0.88);
+  --rl-shadow: 0 12px 36px rgba(0, 0, 0, 0.5);
+}
+
+html,
+body {
+  background-color: var(--rl-night-900);
+  color: var(--rl-ink-100);
+  font-family: "Spectral", "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 68% 14%, rgba(72, 164, 147, 0.28), rgba(0, 0, 0, 0) 36%),
+    radial-gradient(circle at 22% 66%, rgba(43, 117, 104, 0.22), rgba(0, 0, 0, 0) 44%),
+    linear-gradient(180deg, var(--rl-night-850) 0%, var(--rl-night-900) 72%);
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: "Cinzel", "Goudy Old Style", "Times New Roman", serif;
+  letter-spacing: 0.03em;
+  color: var(--rl-gold-300);
+}
+
+h1 {
+  border-bottom: 1px solid var(--rl-line);
+  padding-bottom: 0.35rem;
+  margin-bottom: 1.2rem;
+  text-shadow: 0 0 22px rgba(192, 163, 90, 0.18);
+}
+
+h2 {
+  margin-top: 2rem;
+  color: var(--rl-gold-400);
+}
+
+p,
+li,
+td,
+th {
+  color: var(--rl-ink-100);
+}
+
+a,
+a code {
+  color: var(--rl-gold-400);
+}
+
+a:hover,
+a:focus {
+  color: #f7e4a2;
+}
+
+code,
+pre code {
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--rl-line);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+.bg-primary,
+.navbar.bg-primary {
+  background:
+    linear-gradient(90deg, rgba(9, 29, 25, 0.96) 0%, rgba(12, 45, 40, 0.96) 62%, rgba(17, 67, 60, 0.96) 100%) !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: var(--rl-ink-100) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: var(--rl-gold-300) !important;
+}
+
+.dropdown-menu {
+  border: 1px solid var(--rl-line);
+  background: var(--rl-panel-strong);
+  box-shadow: var(--rl-shadow);
+}
+
+.dropdown-item {
+  color: var(--rl-ink-100);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: var(--rl-gold-300);
+  background: rgba(58, 134, 118, 0.2);
+}
+
+.container > .row {
+  align-items: flex-start;
+}
+
+.col-md-9[role="main"] {
+  background: linear-gradient(180deg, var(--rl-panel-bg) 0%, rgba(5, 12, 11, 0.9) 100%);
+  border: 1px solid rgba(192, 163, 90, 0.18);
+  border-radius: 14px;
+  box-shadow: var(--rl-shadow);
+  padding: 1.5rem 1.6rem;
+  margin-top: 1rem;
+}
+
+.bs-sidebar {
+  margin-top: 1rem;
+}
+
+#toc-collapse.card {
+  border: 1px solid rgba(192, 163, 90, 0.18);
+  background: rgba(6, 20, 18, 0.78) !important;
+  border-radius: 12px;
+  box-shadow: var(--rl-shadow);
+}
+
+.bs-sidebar .nav-link {
+  color: var(--rl-ink-300);
+  border-left: 2px solid transparent;
+  padding-left: 0.8rem;
+}
+
+.bs-sidebar .nav-link:hover,
+.bs-sidebar .nav-link.active {
+  color: var(--rl-gold-300);
+  border-left-color: var(--rl-gold-500);
+  background: rgba(58, 134, 118, 0.14);
+}
+
+.headerlink {
+  color: rgba(219, 198, 126, 0.48);
+}
+
+.headerlink:hover {
+  color: var(--rl-gold-300);
+}
+
+hr {
+  border-top: 1px solid var(--rl-line);
+  opacity: 1;
+}
+
+blockquote {
+  border-left: 3px solid var(--rl-gold-500);
+  background: rgba(20, 52, 47, 0.28);
+  padding: 0.65rem 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+table.table,
+table {
+  border-color: rgba(190, 214, 202, 0.22);
+  background: rgba(4, 12, 10, 0.66);
+}
+
+thead,
+th {
+  color: var(--rl-gold-300);
+  background: rgba(16, 54, 48, 0.45);
+}
+
+.table > :not(caption) > * > * {
+  background-color: transparent;
+  color: var(--rl-ink-100);
+}
+
+pre,
+code {
+  background: rgba(12, 31, 28, 0.74);
+  border-radius: 6px;
+}
+
+pre {
+  border: 1px solid rgba(192, 163, 90, 0.2);
+}
+
+.admonition {
+  border: 1px solid rgba(192, 163, 90, 0.34);
+  background: rgba(14, 45, 40, 0.35);
+  border-radius: 10px;
+}
+
+.admonition-title {
+  background: rgba(192, 163, 90, 0.14);
+  color: var(--rl-gold-300);
+}
+
+footer {
+  color: var(--rl-ink-300);
+}
+
+footer a {
+  color: var(--rl-gold-400);
+}
+
+.modal-content {
+  background: var(--rl-panel-strong);
+  border: 1px solid rgba(192, 163, 90, 0.26);
+}
+
+.form-control {
+  color: var(--rl-ink-100);
+  background: rgba(8, 27, 24, 0.92);
+  border: 1px solid rgba(192, 163, 90, 0.24);
+}
+
+.form-control:focus {
+  color: var(--rl-ink-100);
+  background: rgba(8, 27, 24, 0.92);
+  border-color: rgba(243, 230, 170, 0.45);
+  box-shadow: 0 0 0 0.15rem rgba(219, 198, 126, 0.2);
+}
+
 .home-grid {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   margin: 1.25rem 0 1.75rem;
 }
 
 .home-card {
   display: block;
-  border: 1px solid #d9e0ea;
-  border-left: 4px solid #47627d;
-  border-radius: 10px;
-  padding: 0.9rem 1rem;
+  border: 1px solid rgba(192, 163, 90, 0.32);
+  border-left: 4px solid var(--rl-gold-500);
+  border-radius: 12px;
+  padding: 0.95rem 1.05rem;
   text-decoration: none;
   color: inherit;
-  background: linear-gradient(180deg, #fbfdff 0%, #f2f7fc 100%);
-  transition: transform 120ms ease, box-shadow 120ms ease;
+  background:
+    linear-gradient(180deg, rgba(20, 57, 52, 0.42) 0%, rgba(7, 19, 17, 0.86) 100%);
+  box-shadow: inset 0 1px 0 rgba(243, 230, 170, 0.12);
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    border-color 140ms ease;
 }
 
 .home-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(36, 56, 82, 0.12);
+  border-color: rgba(243, 230, 170, 0.58);
+  box-shadow:
+    0 10px 24px rgba(0, 0, 0, 0.46),
+    0 0 26px rgba(192, 163, 90, 0.18);
 }
 
 .home-card h3 {
-  margin: 0 0 0.4rem;
-  font-size: 1.05rem;
+  margin: 0 0 0.42rem;
+  font-size: 1.08rem;
+  color: var(--rl-gold-300);
 }
 
 .home-card p {
   margin: 0;
-  line-height: 1.4;
-  color: #2f3f52;
-  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--rl-ink-100);
+  font-size: 0.96rem;
+}
+
+@media (max-width: 991px) {
+  .col-md-9[role="main"] {
+    margin-top: 0.75rem;
+    padding: 1.15rem 1rem;
+  }
+
+  .bs-sidebar {
+    margin-top: 0.75rem;
+  }
 }

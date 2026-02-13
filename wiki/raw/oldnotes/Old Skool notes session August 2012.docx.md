@@ -1,7 +1,7 @@
 # Old Skool notes session August 2012
 
 - Source: `oldnotes/Old Skool notes session August 2012.docx`
-- Extracted: `2026-02-08T07:54:18`
+- Extracted: `2026-02-12T13:24:28`
 - Note: Converted with textutil
 Old Skool session notes September 26, 2012
 

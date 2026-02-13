@@ -1,7 +1,7 @@
 # the-goblin-engineers
 
 - Source: `runesite/the-goblin-engineers.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 The Goblin Grok - a former bridge engineer for the fallen minotaur emperor Gabalifix, Grok was an exceptionally intelligent and disciplined goblin. He stole spell books from Empire, taught himself the basics of magic, and organized the goblins into an efficient, militant merchant brigade. His merchant army of approximately 500 goblins took over the Bay of Atania and all of the Empire's ships. They built the first manually powered submarines at the behest of Reconcilers in order to retrieve a piece of Cyric's phylactery.
 

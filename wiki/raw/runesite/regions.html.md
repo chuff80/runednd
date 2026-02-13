@@ -1,7 +1,7 @@
 # regions
 
 - Source: `runesite/regions.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 Dragonshome Peak and Dragonshome Circle - the peak of Dragonshome mountain is where Darian Bloodstone destroyed Cyric the Warlord in the Hartland War. The original legends suggest that Cyric's phylactery was flung from the mountain into the inaccessible Circle upon Cyric's death. Darian's body was laid to rest inside the mountain, and is guarded by the spirit of his dragon mount, Pyraxus. Dragonshome Circle itself is a vast valley rumored to be the home of the leading council of dragons. Dragon Council Leadership includes: Pyraxen – descendant of Pyraxis, adult golden dragon, Silvaran, a Silver, Fen, a Bronze, Quith, a Copper, Fayethl, a Red, Bardentl, a Blue and Shneztl, a Green.
 

@@ -27,12 +27,14 @@ All generated/curated entity pages must be stored under:
 - `wiki/entities/locations/*.md`
 - `wiki/entities/characters/*.md`
 - `wiki/entities/history/*.md`
+- `wiki/entities/organizations/*.md`
 
 Indexes must be kept current:
 
 - `wiki/entities/locations.md`
 - `wiki/entities/characters.md`
 - `wiki/entities/history.md`
+- `wiki/entities/organizations.md`
 
 Use Obsidian wiki-links (`[[path|label]]`) for internal linking.
 
@@ -74,6 +76,16 @@ Character pages have two supported schemas:
 - include `## Outcomes and Lasting Impact`
 - include `## Canonical Sources`
 - include `## Where This Event Appears`
+
+4. Organization schema (auto pages):
+- include `## Overview`
+- include `## Beliefs`
+- include `## Practices and Structure`
+- include `## Notable Members`
+- include `## Associated Locations`
+- include `## Important Historical Events`
+- include `## Canonical Sources`
+- include `## Where This Organization Appears`
 
 ## Validation Requirements
 

@@ -1,7 +1,7 @@
 # Old Skool session 10.13.11
 
 - Source: `oldnotes/Old Skool session 10.13.11.rtf`
-- Extracted: `2026-02-08T07:54:18`
+- Extracted: `2026-02-12T13:24:28`
 - Note: Converted with textutil
 Members of the Resistance will meet the party at the base of the sewer grate ladder to rescue them from the trolls. 
 

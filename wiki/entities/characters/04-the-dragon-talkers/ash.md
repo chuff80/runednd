@@ -1,6 +1,6 @@
 # Ash
 
-`Era anchor:` Unassigned / Cross-Era (Date TBD (cross-era))
+`Era anchor:` The Dragon Talkers (1380 AG)
 
 ## Overview
 

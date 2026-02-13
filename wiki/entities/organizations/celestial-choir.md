@@ -31,7 +31,7 @@ Their cousins, the mountain dwarves from The Dragonspine, sent emissaries Ragnom
 - Meanwhile (1 mention)
 - Ragnom (1 mention)
 - Raven Queen's (1 mention)
-- Sadavir (1 mention)
+- [[entities/characters/04-the-dragon-talkers/sadavir.md|Sadavir]] (1 mention)
 - The Dragonspine (1 mention)
 
 ## Associated Locations

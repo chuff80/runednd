@@ -1,7 +1,7 @@
 # home
 
 - Source: `runesite/home.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 The year is 1935 AG (After the Gaeas). It's been 50 years since the collapse of the orcish Empire of Gibbard . The orcs have retreated into the Hartland forest and are snarled in bureaucratic squabbles that keep them from interfering with other nations.
 

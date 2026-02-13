@@ -9,7 +9,7 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 - [[entities/characters/04-the-dragon-talkers/raven-queen.md|Raven Queen]] (8 mentions)
 - [[entities/characters/01-origin-figures/cyric.md|Cyric]] (5 mentions)
 - [[entities/characters/04-the-dragon-talkers/briar.md|Briar]] (4 mentions)
-- [[entities/characters/99-unassigned-cross-era/religieuse.md|Religieuse]] (4 mentions)
+- [[entities/characters/05-the-ghealdar-goblins/religieuse.md|Religieuse]] (4 mentions)
 - [[entities/characters/01-origin-figures/darian.md|Darian]] (3 mentions)
 - Duine (3 mentions)
 - Elemental Apocalypse (3 mentions)

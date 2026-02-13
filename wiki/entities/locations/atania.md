@@ -13,7 +13,7 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 - [[entities/characters/01-origin-figures/cyric.md|Cyric]] (27 mentions)
 - [[entities/characters/02-the-gaeas-falls/mindee.md|Mindee]] (24 mentions)
 - [[entities/characters/01-origin-figures/darian.md|Darian]] (23 mentions)
-- [[entities/characters/99-unassigned-cross-era/celestina.md|Celestina]] (20 mentions)
+- [[entities/characters/04-the-dragon-talkers/celestina.md|Celestina]] (20 mentions)
 - Badb (19 mentions)
 - Summer Queen (18 mentions)
 - Thomas (15 mentions)

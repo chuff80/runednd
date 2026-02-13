@@ -24,11 +24,36 @@ ERA_GROUPS: list[tuple[str, str, str, set[str]]] = [
     ("Origin Figures", "01-origin-figures", "Pre-AG (before recorded history)", {"darian", "cyric"}),
     ("The Gaeas Falls", "02-the-gaeas-falls", "Recorded History begins (0 AG)", {"liam", "aidan", "mindee", "gabalafix"}),
     ("The Reconcilers", "03-the-reconcilers", "695 AG", {"tal-aer", "niko-the-frost-prince"}),
-    ("The Dragon Talkers", "04-the-dragon-talkers", "1380 AG", {"briar", "raven-queen"}),
+    (
+        "The Ghealdar Goblins",
+        "05-the-ghealdar-goblins",
+        "1350 AG",
+        {"beau", "sarge", "k-nak-likuk", "click-clack", "religieuse"},
+    ),
+    (
+        "The Dragon Talkers",
+        "04-the-dragon-talkers",
+        "1380 AG",
+        {
+            "ash",
+            "asher",
+            "briar",
+            "celestina",
+            "cog",
+            "draevan",
+            "isadorae",
+            "muu",
+            "raven-queen",
+            "rhaeda",
+            "sadavir",
+            "silvermane",
+        },
+    ),
 ]
 UNASSIGNED_ERA = "Unassigned / Cross-Era"
 UNASSIGNED_FOLDER = "99-unassigned-cross-era"
 UNASSIGNED_DATE = "Date TBD (cross-era)"
+EXCLUDED_CHARACTER_SLUGS = {"rj"}
 
 EVENT_PATTERNS = [
     re.compile(
@@ -240,6 +265,8 @@ def parse_characters() -> list[Character]:
 
         name = clean_name(title)
         if not name:
+            continue
+        if slugify(name) in EXCLUDED_CHARACTER_SLUGS:
             continue
 
         m = re.search(r"\]\(\.\./(.+)\)", extracted)

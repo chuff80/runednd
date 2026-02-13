@@ -1,7 +1,7 @@
 # January 2014
 
 - Source: `oldnotes/2014/January 2014.docx`
-- Extracted: `2026-02-08T07:54:17`
+- Extracted: `2026-02-12T13:24:27`
 - Note: Converted with textutil
 The party has ended up at Ashenport, after spending some time in the Feywild with the Lady. She sent the party to Ashenport to find the library's records of the Goblin Contracts with the House of Bloodstone. 
 

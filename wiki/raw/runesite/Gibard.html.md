@@ -1,7 +1,7 @@
 # Gibard
 
 - Source: `runesite/Gibard.html`
-- Extracted: `2026-02-08T07:54:19`
+- Extracted: `2026-02-12T13:24:29`
 - Note: Extracted visible HTML text
 The orcish martial empire of Gibbard was the only nation intact when the arch-djinn were freed upon the death of the The Raven Queen. After the elemental-wrought calamities died down, Gibbard had an occupying force in Ghealdar. Their rulers were a series of shogun-style warlords that eventually fell into infighting, with a warlord claiming control of the fog-shrouded djinn woods and the other orcs dividing up into factions.
 
