@@ -19,8 +19,8 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 - Orcish (3 mentions)
 - Orcs (3 mentions)
 - Academy (2 mentions)
-- Asher (2 mentions)
-- Beau (2 mentions)
+- [[entities/characters/04-the-dragon-talkers/asher.md|Asher]] (2 mentions)
+- [[entities/characters/05-the-ghealdar-goblins/beau.md|Beau]] (2 mentions)
 - Black Raven (2 mentions)
 - Dragonspine (2 mentions)
 - Eventually (2 mentions)
@@ -39,6 +39,10 @@ After the Reconciliation, the lost noble families of Atania were offered an oppo
 
 - Great Destruction (3 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
 - [[entities/history/hartland-war.md|Hartland War]] (3 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/ghealdar.html.md|ghealdar.html]])
+
+## Visual References
+
+_No mapped images found yet._
 
 ## Canonical Sources
 

@@ -38,6 +38,10 @@ They eschew the Order of Briar, for unknown reasons, but otherwise are a strong 
 
 _No event phrases crossed the reference threshold yet (needs 2+ references)._
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - [[raw/runesite/regions.html.md|raw/runesite/regions.html.md]]

@@ -24,6 +24,7 @@ LOCATION_REQUIRED = [
     "## Notable People",
     "## Notable Places",
     "## Important Historical Events",
+    "## Visual References",
     "## Canonical Sources",
     "## Where This Location Appears",
 ]
@@ -33,6 +34,7 @@ CHAR_AUTO_REQUIRED = [
     "## Notable Connections",
     "## Associated Locations",
     "## Important Historical Events",
+    "## Visual References",
     "## Canonical Sources",
     "## Where This Character Appears",
 ]
@@ -60,6 +62,7 @@ ORGANIZATION_REQUIRED = [
     "## Notable Members",
     "## Associated Locations",
     "## Important Historical Events",
+    "## Visual References",
     "## Canonical Sources",
     "## Where This Organization Appears",
 ]

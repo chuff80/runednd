@@ -39,6 +39,10 @@ Dragonshome Peak and Dragonshome Circle - the peak of Dragonshome mountain is wh
 
 _No event phrases crossed the reference threshold yet (needs 3+ references in other notes)._
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - Source file: `runesite/regions.html`

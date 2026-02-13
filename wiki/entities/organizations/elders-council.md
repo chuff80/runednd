@@ -46,6 +46,12 @@ Asher, Cog, Muu, Isadorae, Rhaeda, Silvermane, Draevan, and Sadavir came togethe
 
 - [[entities/history/hartland-war.md|Hartland War]] (3 references; sample sources: [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]], [[raw/runesite/old-notes.html.md|raw/runesite/old-notes.html.md]])
 
+## Visual References
+
+![Elders Council image 1](../../assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg)
+![Elders Council image 2](../../assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg)
+![Elders Council image 3](../../assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]]

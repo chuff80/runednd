@@ -34,6 +34,10 @@ The new, terrifying Everstorm that has raged across the Northwest corner of the 
 
 - [[entities/history/hartland-war.md|Hartland War]] (5 references in other notes; calendar anchor: c. 1000 years before 0 AG (pre-recorded); sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
 
+## Visual References
+
+![The Feywild image 1](../../assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg)
+
 ## Canonical Sources
 
 - Source file: `runesite/the-feywild.html`

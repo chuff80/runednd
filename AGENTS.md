@@ -15,10 +15,12 @@ Preferred full rebuild command:
 Manual equivalent sequence:
 
 1. `python3 tools/extract_markdown.py`
-2. `python3 tools/build_wiki_index.py`
-3. `python3 tools/build_location_hubs.py`
-4. `python3 tools/build_character_hubs.py`
-5. `python3 tools/validate_wiki.py`
+2. `python3 tools/build_image_manifest.py`
+3. `python3 tools/build_wiki_index.py`
+4. `python3 tools/build_location_hubs.py`
+5. `python3 tools/build_character_hubs.py`
+6. `python3 tools/build_organization_hubs.py`
+7. `python3 tools/validate_wiki.py`
 
 ## Output Contract
 
@@ -48,6 +50,7 @@ Location pages must include at minimum:
 - `## Notable People`
 - `## Notable Places`
 - `## Important Historical Events`
+- `## Visual References`
 - `## Canonical Sources`
 - `## Where This Location Appears`
 
@@ -58,6 +61,7 @@ Character pages have two supported schemas:
 - `## Notable Connections`
 - `## Associated Locations`
 - `## Important Historical Events`
+- `## Visual References`
 - `## Canonical Sources`
 - `## Where This Character Appears`
 
@@ -84,6 +88,7 @@ Character pages have two supported schemas:
 - include `## Notable Members`
 - include `## Associated Locations`
 - include `## Important Historical Events`
+- include `## Visual References`
 - include `## Canonical Sources`
 - include `## Where This Organization Appears`
 

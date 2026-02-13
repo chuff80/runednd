@@ -46,6 +46,10 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 - Great Destruction (3 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/Calendar.html.md|Calendar.html]], [[raw/runesite/Gibard.html.md|Gibard.html]])
 - Reconciliation (3 references in other notes; calendar anchor: 695 AG; sample sources: [[raw/runesite/religions.html.md|religions.html]], [[raw/runesite/the-free-states.html.md|the-free-states.html]])
 
+## Visual References
+
+![Atania image 1](../../assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg)
+
 ## Canonical Sources
 
 - Source file: `runesite/atania.html`

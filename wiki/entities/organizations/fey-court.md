@@ -46,6 +46,13 @@ Eventually, humanity started going into the Feywild and assassinating members of
 - [[entities/history/hartland-war.md|Hartland War]] (3 references; sample sources: [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]], [[raw/runesite/ghealdar.html.md|raw/runesite/ghealdar.html.md]])
 - Elemental Apocalypse (2 references; sample sources: [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]], [[raw/runesite/ghealdar.html.md|raw/runesite/ghealdar.html.md]])
 
+## Visual References
+
+![Fey Court image 1](../../assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg)
+![Fey Court image 2](../../assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg)
+![Fey Court image 3](../../assets/images/runesite/niko-the-frost-prince/f8894d6a57976765357309dff91e8bf4.jpg)
+![Fey Court image 4](../../assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/10-16.html.md|raw/runesite/10-16.html.md]]

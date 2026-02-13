@@ -40,6 +40,10 @@ From the chaos of Ghealdar arose an unlikely group of heroes named The Dragon Ta
 
 - Great Destruction (2 references; sample sources: [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]], [[raw/runesite/Gibard.html.md|raw/runesite/Gibard.html.md]])
 
+## Visual References
+
+![Dragon Talkers image 1](../../assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]]

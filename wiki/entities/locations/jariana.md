@@ -40,6 +40,10 @@ Skip to main content Skip to navigation Rune Rune Campaign Atania The Goblin Eng
 
 _No event phrases crossed the reference threshold yet (needs 3+ references in other notes)._
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - Source file: `runesite/jariana.html`

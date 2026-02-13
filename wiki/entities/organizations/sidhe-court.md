@@ -39,6 +39,10 @@ The Summer Queen predicted that Niko's change would bring chaos to the Sidhe Cou
 
 _No event phrases crossed the reference threshold yet (needs 2+ references)._
 
+## Visual References
+
+![Sidhe Court image 1](../../assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/the-feywild.html.md|raw/runesite/the-feywild.html.md]]

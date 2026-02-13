@@ -46,6 +46,10 @@ Their cousins, the mountain dwarves from The Dragonspine, sent emissaries Ragnom
 - Great Destruction (2 references; sample sources: [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]], [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]])
 - [[entities/history/hartland-war.md|Hartland War]] (2 references; sample sources: [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]], [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]])
 
+## Visual References
+
+![Celestial Choir image 1](../../assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]]

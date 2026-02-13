@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-02-12T21:05:12",
+  "image_count": 8,
+  "source_doc_count": 6,
+  "raw_doc_count": 6,
+  "images": [
+    {
+      "source_image": "runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg",
+      "asset_image": "assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg",
+      "linked_sources": [
+        "runesite/atania.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/atania.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg",
+      "asset_image": "assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg",
+      "linked_sources": [
+        "runesite/ghealdar.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/ghealdar.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg",
+      "asset_image": "assets/images/runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg",
+      "linked_sources": [
+        "runesite/home.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/home.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/niko-the-frost-prince/f8894d6a57976765357309dff91e8bf4.jpg",
+      "asset_image": "assets/images/runesite/niko-the-frost-prince/f8894d6a57976765357309dff91e8bf4.jpg",
+      "linked_sources": [
+        "runesite/niko-the-frost-prince.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/niko-the-frost-prince.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg",
+      "asset_image": "assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg",
+      "linked_sources": [
+        "runesite/old-notes.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/old-notes.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg",
+      "asset_image": "assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg",
+      "linked_sources": [
+        "runesite/old-notes.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/old-notes.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg",
+      "asset_image": "assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg",
+      "linked_sources": [
+        "runesite/old-notes.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/old-notes.html.md"
+      ]
+    },
+    {
+      "source_image": "runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg",
+      "asset_image": "assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg",
+      "linked_sources": [
+        "runesite/the-feywild.html"
+      ],
+      "linked_raw_docs": [
+        "raw/runesite/the-feywild.html.md"
+      ]
+    }
+  ],
+  "by_source": {
+    "runesite/atania.html": [
+      "assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg"
+    ],
+    "runesite/ghealdar.html": [
+      "assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg"
+    ],
+    "runesite/home.html": [
+      "assets/images/runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg"
+    ],
+    "runesite/niko-the-frost-prince.html": [
+      "assets/images/runesite/niko-the-frost-prince/f8894d6a57976765357309dff91e8bf4.jpg"
+    ],
+    "runesite/old-notes.html": [
+      "assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg",
+      "assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg",
+      "assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg"
+    ],
+    "runesite/the-feywild.html": [
+      "assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg"
+    ]
+  },
+  "by_raw_doc": {
+    "raw/runesite/atania.html.md": [
+      "assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg"
+    ],
+    "raw/runesite/ghealdar.html.md": [
+      "assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg"
+    ],
+    "raw/runesite/home.html.md": [
+      "assets/images/runesite/home/de722af8b9ff89619b744d9d0ab6b830.jpg"
+    ],
+    "raw/runesite/niko-the-frost-prince.html.md": [
+      "assets/images/runesite/niko-the-frost-prince/f8894d6a57976765357309dff91e8bf4.jpg"
+    ],
+    "raw/runesite/old-notes.html.md": [
+      "assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg",
+      "assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg",
+      "assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg"
+    ],
+    "raw/runesite/the-feywild.html.md": [
+      "assets/images/runesite/the-feywild/aaed655a2e47ff7bcfc6f3310a6adee5.jpg"
+    ]
+  },
+  "unassigned_assets": []
+}

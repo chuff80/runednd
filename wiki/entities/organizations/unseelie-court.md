@@ -46,6 +46,12 @@ Through these gates, the Unseelie Court entered and grew thorns, weeds, and fera
 
 - [[entities/history/hartland-war.md|Hartland War]] (4 references; sample sources: [[raw/runesite/old-notes.html.md|raw/runesite/old-notes.html.md]], [[raw/runesite/races.html.md|raw/runesite/races.html.md]])
 
+## Visual References
+
+![Unseelie Court image 1](../../assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg)
+![Unseelie Court image 2](../../assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg)
+![Unseelie Court image 3](../../assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/destruction-of-the-elves.html.md|raw/runesite/destruction-of-the-elves.html.md]]

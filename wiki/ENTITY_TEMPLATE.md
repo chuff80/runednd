@@ -19,6 +19,9 @@ This file defines the expected markdown structure for entity pages.
 ## Important Historical Events
 - <Event> (<count> references; sample sources: [[...]], [[...]])
 
+## Visual References
+![<Location Name> image 1](../../assets/images/<source path>)
+
 ## Canonical Sources
 - Source file: `<source path>`
 - Extracted text: [[raw/...|...]]
@@ -43,6 +46,9 @@ This file defines the expected markdown structure for entity pages.
 
 ## Important Historical Events
 - <Event> (<count> references; sample sources: [[...]], [[...]])
+
+## Visual References
+![<Character Name> image 1](../../../assets/images/<source path>)
 
 ## Canonical Sources
 - Source file: `<source path>`
@@ -129,6 +135,9 @@ This file defines the expected markdown structure for entity pages.
 
 ## Important Historical Events
 - <Event> (<count> references; sample sources: [[...]], [[...]])
+
+## Visual References
+![<Organization Name> image 1](../../assets/images/<source path>)
 
 ## Canonical Sources
 - [[raw/...|...]]

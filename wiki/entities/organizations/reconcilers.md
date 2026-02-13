@@ -45,6 +45,10 @@
 
 - [[entities/history/hartland-war.md|Hartland War]] (3 references; sample sources: [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]], [[raw/runesite/ghealdar.html.md|raw/runesite/ghealdar.html.md]])
 
+## Visual References
+
+![Reconcilers image 1](../../assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]]

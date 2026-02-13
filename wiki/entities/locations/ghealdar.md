@@ -43,6 +43,10 @@ Ghealdar is now a city flooded by the massive Great River. The Dump, former home
 - Great Destruction (4 references in other notes; calendar anchor: 1385 AG; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/Calendar.html.md|Calendar.html]])
 - Reconciliation (4 references in other notes; calendar anchor: 695 AG; sample sources: [[raw/runesite/atania.html.md|atania.html]], [[raw/runesite/religions.html.md|religions.html]])
 
+## Visual References
+
+![Ghealdar image 1](../../assets/images/runesite/ghealdar/25038e3d3a43088f39dd029f9269e436.jpg)
+
 ## Canonical Sources
 
 - Source file: `runesite/ghealdar.html`

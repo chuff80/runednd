@@ -8,6 +8,14 @@ from pathlib import Path
 import re
 from urllib.parse import unquote
 
+from image_utils import (
+    append_visual_references,
+    collect_assets_for_raw_docs,
+    collect_assets_for_sources,
+    load_image_maps,
+    merge_asset_lists,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "wiki"
 RAW = WIKI / "raw"
@@ -536,6 +544,8 @@ def build_character_page(
     character_lookup: dict[str, Path],
     location_lookup: dict[str, Path],
     history_lookup: dict[str, Path],
+    image_by_source: dict[str, list[str]],
+    image_by_raw_doc: dict[str, list[str]],
 ) -> Path:
     HUB_ROOT.mkdir(parents=True, exist_ok=True)
     slug = slugify(character.name)
@@ -608,6 +618,18 @@ def build_character_page(
         lines.append(
             "_No event phrases crossed the reference threshold yet (needs 2+ references in other notes)._"
         )
+
+    image_assets = merge_asset_lists(
+        collect_assets_for_sources(character.source_rels, image_by_source),
+        collect_assets_for_raw_docs(character.extracted_rels, image_by_raw_doc),
+    )
+    append_visual_references(
+        lines,
+        page_path=hub_path,
+        wiki_root=WIKI,
+        asset_rels=image_assets,
+        subject_label=character.name,
+    )
 
     lines += [
         "",
@@ -738,6 +760,7 @@ def main() -> None:
     character_lookup = build_character_entity_lookup(chars)
     location_lookup = build_location_entity_lookup(location_names)
     history_lookup = build_history_entity_lookup()
+    image_by_source, image_by_raw_doc = load_image_maps(WIKI)
 
     for c in selected:
         build_character_page(
@@ -749,6 +772,8 @@ def main() -> None:
             character_lookup=character_lookup,
             location_lookup=location_lookup,
             history_lookup=history_lookup,
+            image_by_source=image_by_source,
+            image_by_raw_doc=image_by_raw_doc,
         )
 
     build_index(chars)

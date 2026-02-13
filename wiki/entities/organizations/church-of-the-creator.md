@@ -50,6 +50,13 @@ The largest city in the Domhaine an Duine, the Kingdom of Atania was home to The
 - Reconciliation (2 references; sample sources: [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]], [[raw/runesite/religions.html.md|raw/runesite/religions.html.md]])
 - [[entities/history/hartland-war.md|The Hartland War]] (2 references; sample sources: [[raw/runesite/Calendar.html.md|raw/runesite/Calendar.html.md]], [[raw/stories/The Unkindness of Ravens Full.doc.md|raw/stories/The Unkindness of Ravens Full.doc.md]])
 
+## Visual References
+
+![Church of the Creator image 1](../../assets/images/runesite/atania/05eefc93d0aa6bb7f7e20fd223f82e4f.jpg)
+![Church of the Creator image 2](../../assets/images/runesite/old-notes/23f5bbcde468f9ead183cb71b301ed31.jpg)
+![Church of the Creator image 3](../../assets/images/runesite/old-notes/58ca05e20345f957896e00ffa4c1ef3f.jpg)
+![Church of the Creator image 4](../../assets/images/runesite/old-notes/d56b9e3d7982b14851f51ff5f3c22c05.jpg)
+
 ## Canonical Sources
 
 - [[raw/runesite/atania.html.md|raw/runesite/atania.html.md]]

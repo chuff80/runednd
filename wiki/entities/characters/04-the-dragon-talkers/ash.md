@@ -18,6 +18,10 @@ _No location links detected yet._
 
 _No event phrases crossed the reference threshold yet (needs 2+ references in other notes)._
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - Source file: `oldnotes/Ash character history.docx`

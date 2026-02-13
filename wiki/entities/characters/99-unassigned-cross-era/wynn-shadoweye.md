@@ -28,6 +28,10 @@ Wynn Shadoweye character history Wynn Shadoweye was born in the Village of Fenha
 
 _No event phrases crossed the reference threshold yet (needs 2+ references in other notes)._
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - Source file: `oldnotes/Wynn Shadoweye character history.docx`

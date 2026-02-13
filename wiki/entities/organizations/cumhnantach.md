@@ -44,6 +44,10 @@ The Cumhnantach knew how to tap the lines of this language of power to do what w
 
 - [[entities/history/hartland-war.md|Hartland War]] (2 references; sample sources: [[raw/stories/An Argument of Fairies V2 copy.docx.md|raw/stories/An Argument of Fairies V2 copy.docx.md]], [[raw/stories/The Unkindness of Ravens Full.doc.md|raw/stories/The Unkindness of Ravens Full.doc.md]])
 
+## Visual References
+
+_No mapped images found yet._
+
 ## Canonical Sources
 
 - [[raw/stories/An Argument of Fairies V2 copy.docx.md|raw/stories/An Argument of Fairies V2 copy.docx.md]]
